@@ -1,0 +1,30 @@
+# GeoAgent runtime dependencies
+# Install: pip install -r requirements.txt
+#
+# NOTE: keep this file ASCII-only.
+# pip reads requirements files with the system locale encoding (GBK on zh-CN Windows),
+# so any non-ASCII character here (Chinese comments included) causes a
+# UnicodeDecodeError before installation even starts.
+#
+# Lower bounds are the versions this project was actually tested against
+# (see README "Runtime versions"). Upper caps guard against breaking major bumps.
+
+# Agent orchestration (LangGraph 1.x API: StateGraph / START / END / add_messages)
+langgraph>=1.2,<2
+langchain-core>=1.6,<2
+
+# Model access (DeepSeek via OpenAI-compatible protocol)
+openai>=3.0,<4
+
+# Contracts and configuration
+pydantic>=2.13,<3
+python-dotenv>=1.2,<2
+
+# Spatial computation
+shapely>=2.1,<3
+pyproj>=3.8,<4
+networkx>=3.7,<4
+geopandas>=1.2,<2
+
+# Web service
+flask>=3.1,<4

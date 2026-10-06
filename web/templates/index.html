@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GeoAgent · 校园空间问答智能体</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --panel:#ffffff; --line:#e3e6ea; --text:#1f2328; --muted:#6b7280;
+    --accent:#1f4e79; --ok:#1d9e75; --warn:#ba7517; --bad:#e24b4a; --user:#eef3f9;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif;
+            color:var(--text);background:var(--bg);font-size:13px}
+  #app{display:flex;height:100vh}
+  #mapwrap{position:relative;flex:1;min-width:0}
+  /* z-index:0 让 #map 自成一层「堆叠上下文」，把腾讯地图内部的层级
+     （画布容器 z-index:2、dom-overlay 面板 z-index:1000、热力图层 300）
+     全部封在它内部。否则这些正 z-index 会盖过 z-index:auto 的图例面板，
+     表现为「面板看得见但点不动」——点击全被地图吃掉了。 */
+  #map{position:absolute;inset:0;z-index:0}
+  #panel{width:430px;min-width:430px;display:flex;flex-direction:column;
+         background:var(--panel);border-left:1px solid var(--line)}
+  header{padding:11px 14px;border-bottom:1px solid var(--line)}
+  header h1{margin:0 0 3px;font-size:15px;font-weight:600;color:var(--accent)}
+  header .sub{color:var(--muted);font-size:11.5px;line-height:1.5}
+  .engines{display:flex;gap:6px;margin-top:8px}
+  .engines button{flex:1;padding:5px 8px;font-size:11.5px;border:1px solid var(--line);
+     background:#fff;border-radius:6px;cursor:pointer;color:var(--muted);font-family:inherit}
+  .engines button.on{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+  #log{flex:1;overflow-y:auto;padding:12px 14px}
+  .msg{margin-bottom:12px;line-height:1.65}
+  .msg .who{font-size:11px;color:var(--muted);margin-bottom:3px}
+  .msg.user .bubble{background:var(--user);border-radius:9px;padding:8px 11px;display:inline-block;
+     max-width:100%;white-space:pre-wrap}
+  .msg.bot .bubble{background:#fff;border:1px solid var(--line);border-radius:9px;padding:10px 12px;
+     white-space:pre-wrap}
+  .msg.bot .bubble table{border-collapse:collapse;margin:6px 0;font-size:12px;width:100%}
+  .msg.bot .bubble th,.msg.bot .bubble td{border:1px solid var(--line);padding:3px 6px;text-align:left}
+  .msg.bot .bubble th{background:#f3f5f8;font-weight:600}
+  .msg.bot .bubble code{background:#f3f5f8;padding:1px 4px;border-radius:3px;font-size:12px}
+  .msg.bot .bubble strong{color:var(--accent)}
+  /* 调试信息默认收起：普通用户只看回答，需要时点开「执行详情」自查 */
+  .dbg{margin-top:8px;border-top:1px dashed var(--line);padding-top:5px}
+  .dbg>summary{font-size:11px;color:var(--muted);cursor:pointer;list-style:none;
+     user-select:none;display:inline-flex;align-items:center;gap:4px}
+  .dbg>summary::-webkit-details-marker{display:none}
+  .dbg>summary::before{content:'▸';font-size:9px;transition:transform .15s}
+  .dbg[open]>summary::before{transform:rotate(90deg)}
+  .dbg>summary:hover{color:var(--accent)}
+  .trace{margin-top:7px;border-left:2px solid var(--line);padding-left:9px}
+  .trace .t{font-size:11.5px;color:var(--muted);line-height:1.75;font-family:Consolas,monospace}
+  .trace .t b{color:var(--text);font-weight:600}
+  .trace .t .ok{color:var(--ok)} .trace .t .bad{color:var(--bad)}
+  .stats{margin-top:6px;font-size:11px;color:var(--muted)}
+  footer{border-top:1px solid var(--line);padding:10px 12px;display:flex;gap:8px}
+  #q{flex:1;padding:8px 10px;border:1px solid var(--line);border-radius:7px;font-size:13px;
+     font-family:inherit;resize:none;height:38px;line-height:20px}
+  #send{padding:0 16px;background:var(--accent);color:#fff;border:0;border-radius:7px;
+        cursor:pointer;font-size:13px;font-family:inherit}
+  #send:disabled{opacity:.5;cursor:default}
+  .chips{padding:0 14px 10px;display:flex;flex-wrap:wrap;gap:5px}
+  .chips button{font-size:11px;padding:3px 8px;border:1px solid var(--line);background:#fff;
+     border-radius:12px;cursor:pointer;color:var(--muted);font-family:inherit}
+  .chips button:hover{border-color:var(--accent);color:var(--accent)}
+  #legend{position:absolute;left:10px;bottom:56px;z-index:10;
+     background:rgba(255,255,255,.94);
+     border:1px solid var(--line);border-radius:8px;padding:9px 11px;font-size:11.5px}
+  #legend .lt{font-weight:600;color:var(--accent);margin-bottom:6px}
+  #legend label{display:flex;align-items:center;gap:6px;padding:2px 0;cursor:pointer;
+     user-select:none;line-height:1.4}
+  #legend label:hover{color:var(--accent)}
+  #legend input{margin:0;width:12px;height:12px;accent-color:var(--accent);cursor:pointer;
+     flex:none}
+  #legend i{width:10px;height:10px;border-radius:2px;flex:none}
+  #legend i.ring{background:transparent;border:2px solid #1f4e79}
+  #legend .hint{margin-top:5px;padding-top:5px;border-top:1px solid var(--line);
+     color:var(--muted);font-size:10.5px;line-height:1.5}
+  #notice{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+     background:rgba(246,247,249,.96);padding:32px;text-align:left}
+  #notice .box{max-width:520px}
+  #notice h2{margin:0 0 10px;font-size:15px;color:var(--accent)}
+  #notice p,#notice li{color:var(--muted);line-height:1.85}
+  #notice code{background:#eef1f5;padding:1px 5px;border-radius:3px}
+  #maperr{position:absolute;left:10px;top:10px;z-index:11;max-width:72%;
+     background:#fff5f5;border:1px solid var(--bad);color:#a32020;border-radius:8px;
+     padding:7px 10px;font-size:11.5px;line-height:1.7}
+  .attrib{position:absolute;right:6px;bottom:2px;z-index:10;font-size:10px;color:var(--muted)}
+</style>
+{% if has_key %}
+<!-- JavaScript API GL：key 必须作为 query 参数写在 API 库的 src 里（官方要求），
+     否则地图能起来但底图会报「当前产品鉴权失败」。 -->
+<script charset="utf-8"
+        src="https://map.qq.com/api/gljs?v=1.exp&key={{ tmap_key|urlencode }}"></script>
+{% endif %}
+</head>
+<body>
+<div id="app">
+  <div id="mapwrap">
+    <div id="map"></div>
+    <div id="legend">
+      <div class="lt">图层显示</div>
+      <label><input type="checkbox" data-layer="parking" checked>
+        <i style="background:#1d9e75"></i>可停区</label>
+      <label><input type="checkbox" data-layer="tempparking" checked>
+        <i style="background:#ba7517"></i>可暂停区</label>
+      <label><input type="checkbox" data-layer="noparking" checked>
+        <i style="background:#f0a3a3"></i>禁停区（轮廓）</label>
+      <label><input type="checkbox" data-layer="road" checked>
+        <i style="background:#9aa3ad"></i>路网</label>
+      <label><input type="checkbox" data-layer="poi" checked>
+        <i style="background:#1f4e79"></i>POI 设施点</label>
+      <label><input type="checkbox" data-layer="result" checked>
+        <i class="ring"></i>本次查询结果</label>
+      <div class="hint">取消勾选可临时隐藏该图层</div>
+    </div>
+    <div class="attrib">底图 © 腾讯地图　坐标 GCJ-02</div>
+    {% if not has_key %}
+    <div id="notice"><div class="box">
+      <h2>需要先配置合规底图的 Key</h2>
+      <p>本项目<b>不能使用 Leaflet + OpenStreetMap 直连瓦片</b>——按国内地图合规要求，
+         允许的底图只有腾讯地图、高德、百度、天地图。</p>
+      <p>这里用的是腾讯地图 GL JS，需要你自己的免费 Key：</p>
+      <ol>
+        <li>打开 <code>https://lbs.qq.com/</code> → 控制台 → 应用管理 → 创建应用</li>
+        <li>添加 Key —— <b>JavaScript API GL 不需要勾选任何产品</b>，直接创建即可</li>
+        <li>在 Key 的「签名校验 / 域名白名单」里加上 <code>127.0.0.1</code> 和 <code>localhost</code></li>
+        <li>把 Key 填进项目根目录 <code>.env</code> 的 <code>TMAP_KEY=</code>，重启本服务</li>
+      </ol>
+      <p>Key 保存在服务端 <code>.env</code> 里（已被 <code>.gitignore</code> 排除），由模板注入页面。
+         注意：<b>JavaScript API GL 的 key 必须出现在页面源码里</b>——它要作为
+         <code>&amp;key=</code> 参数传给 API 库，这是浏览器端地图 API 的固有特性。
+         真正的防护手段是在控制台里设置<b>域名白名单</b>，即使 key 被人抄走，别的域名也用不了。</p>
+      <p>对话功能不受影响，现在就能用——只是地图底图不显示。</p>
+    </div></div>
+    {% endif %}
+  </div>
+
+  <div id="panel">
+    <header>
+      <h1>GeoAgent · 校园空间问答</h1>
+      <div class="engines">
+        <button data-e="react" class="on">ReAct 编排（LangGraph）</button>
+      </div>
+    </header>
+
+    <div id="log"></div>
+
+    <div class="chips" id="chips">
+      <button>图书馆 300 米内有哪些可停区？</button>
+      <button>离荟十最近的食堂是哪，走过去要多久？</button>
+      <button>荟园食堂 500 米内有充电站吗？</button>
+      <button>从北苑3栋到图书馆怎么走？</button>
+      <button>学校一共有多少个充电站？</button>
+    </div>
+
+    <footer>
+      <textarea id="q" placeholder="问点什么…（Enter 发送，Shift+Enter 换行）"></textarea>
+      <button id="send">发送</button>
+    </footer>
+  </div>
+</div>
+
+<script>
+const HAS_KEY = {{ 'true' if has_key else 'false' }};
+const CENTER = {{ center }};
+let engineName = 'react';
+let map = null;
+const overlays = { result: [], base: {} };
+
+// ── 底图初始化 ─────────────────────────────────────
+// 关键：底图初始化必须被 try/catch 包住。
+// 这里是脚本里唯一可能同步抛错的地方（TMap 未加载 / Key 未过白名单 / 参数非法）。
+// 一旦它抛错又没人接，整个 <script> 会中断——后面所有按钮的 onclick 都绑不上，
+// 页面看起来就是"地图没有、按钮全死、输入框发不出去"。
+function showMapError(msg){
+  let el = document.getElementById('maperr');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'maperr';
+    document.getElementById('mapwrap').appendChild(el);
+  }
+  el.textContent = '底图初始化失败：' + msg + '　（对话功能不受影响，可以直接提问）';
+}
+window.addEventListener('error', e => {
+  if (e && e.message) showMapError(e.message);   // 资源加载失败（无 message）不报，免得刷屏
+});
+
+if (HAS_KEY) {
+  if (typeof TMap === 'undefined') {
+    showMapError('腾讯地图 GL JS 未加载——检查网络，或 Key 的域名白名单是否含 127.0.0.1');
+  } else {
+    try {
+      map = new TMap.Map('map', {
+        center: new TMap.LatLng(CENTER[0], CENTER[1]),
+        zoom: 15.5,
+        pitch: 0,
+        viewMode: '2D',
+      });
+      initBaseLayers();
+    } catch (e) {
+      map = null;
+      showMapError(String((e && e.message) || e));
+    }
+  }
+}
+function initBaseLayers(){
+  // ⚠ GL 的 TMap.PolygonStyle **没有** fillColor / fillOpacity 属性 —— 只认
+  //   color（填充色，透明度写进 rgba()）+ showBorder / borderColor / borderWidth。
+  //   旧代码用 fillColor/fillOpacity 会被静默忽略 → 多边形退回不透明填充。
+  //   这里统一改成 `rgba(r,g,b,a)` 的写法。
+  const specs = [
+    // 禁停区是 4.41 km² 的兜底面（占研究区 64%），用饱和的红会把整张图压住，
+    // 所以取更淡的红、且近乎全透只留轮廓。
+    ['noparking','poly','rgba(240,163,163,0.06)', 'rgba(240,163,163,0.55)'],
+    ['tempparking','poly','rgba(186,117,23,0.28)', 'rgba(186,117,23,0.75)'],
+    ['parking','poly','rgba(29,158,117,0.35)', 'rgba(29,158,117,0.85)'],
+    ['road','line','#9aa3ad', null],
+    ['poi','point','#1f4e79', null],
+  ];
+  specs.forEach(([name, kind, main, border]) => {
+    fetch('/api/layers/' + name).then(r => r.json()).then(gj => {
+      if (!gj || !gj.features || !gj.features.length) return;
+      if (kind === 'poly') {
+        // 面：main 是填充色（rgba 带透明度），border 是边线色
+        overlays.base[name] = new TMap.MultiPolygon({
+          map,
+          styles: { s: new TMap.PolygonStyle({ color: main,
+                     showBorder: true, borderColor: border, borderWidth: 1 }) },
+          geometries: gjToPolygons(gj, 's'),
+        });
+      } else if (kind === 'line') {
+        // 线：只用 main 着色（PolylineStyle 的 borderWidth/borderColor 是白色描边，这里不要）
+        overlays.base[name] = new TMap.MultiPolyline({
+          map, styles: { s: new TMap.PolylineStyle({ color: main, width: 2,
+            borderWidth: 0, lineCap: 'round' }) },
+          geometries: gjToPolylines(gj, 's'),
+        });
+      } else {
+        // 点：MarkerStyle 的色键就叫 color
+        overlays.base[name] = new TMap.MultiMarker({
+          map, styles: { s: new TMap.MarkerStyle({ width: 8, height: 8,
+            anchor: { x: 4, y: 4 }, color: main }) },
+          geometries: gjToPoints(gj, 's'),
+        });
+      }
+      applyLayerVisibility(name);   // 图层是异步加载的，加载完要补一次勾选状态
+    }).catch(e => console.error('基础图层加载失败:', name, e));   // 别吞掉异常
+  });
+}
+
+// ── 图层显隐（勾选框）──────────────────────────────
+// 用 setMap(null) 移出地图 / setMap(map) 挂回来，不销毁对象，切换无延迟。
+const layerVisible = { parking:true, tempparking:true, noparking:true,
+                       road:true, poi:true, result:true };
+
+function applyLayerVisibility(name){
+  if (!map) return;
+  const on = layerVisible[name];
+  try {
+    if (name === 'result') {
+      overlays.result.forEach(o => o.setMap(on ? map : null));
+      return;
+    }
+    const ov = overlays.base[name];
+    if (ov) ov.setMap(on ? map : null);
+  } catch (e) {
+    console.error('切换图层显隐失败:', name, e);   // 别让一个图层拖垮其它勾选框
+  }
+}
+
+// ── GeoJSON → 腾讯地图几何 ─────────────────────────
+function ll(c){ return new TMap.LatLng(c[1], c[0]); }
+function gjToPolygons(gj, sid){
+  const out = [];
+  (gj.features || []).forEach((f, i) => {
+    const g = f.geometry; if (!g) return;
+    if (g.type === 'Polygon') out.push({ id:'p'+i, styleId:sid, paths: g.coordinates.map(r=>r.map(ll)) });
+    else if (g.type === 'MultiPolygon') g.coordinates.forEach((poly, j) =>
+      out.push({ id:'p'+i+'_'+j, styleId:sid, paths: poly.map(r=>r.map(ll)) }));
+  });
+  return out;
+}
+function gjToPolylines(gj, sid){
+  const out = [];
+  (gj.features || []).forEach((f, i) => {
+    const g = f.geometry; if (!g) return;
+    if (g.type === 'LineString') out.push({ id:'l'+i, styleId:sid, paths: g.coordinates.map(ll) });
+    else if (g.type === 'MultiLineString') g.coordinates.forEach((ls, j) =>
+      out.push({ id:'l'+i+'_'+j, styleId:sid, paths: ls.map(ll) }));
+  });
+  return out;
+}
+function gjToPoints(gj, sid){
+  const out = [];
+  (gj.features || []).forEach((f, i) => {
+    const g = f.geometry; if (!g) return;
+    if (g.type === 'Point') out.push({ id:'m'+i, styleId:sid, position: ll(g.coordinates) });
+    else if (g.type === 'MultiPoint') g.coordinates.forEach((p, j) =>
+      out.push({ id:'m'+i+'_'+j, styleId:sid, position: ll(p) }));
+  });
+  return out;
+}
+
+// ── 渲染查询结果 ───────────────────────────────────
+function drawResult(layers){
+  if (!map) return;
+  overlays.result.forEach(o => o.setMap(null));
+  overlays.result = [];
+  const bounds = [];
+  layers.forEach((layer, idx) => {
+    const gj = layer.geojson; if (!gj) return;
+    const polys = gjToPolygons(gj, 'r'), lines = gjToPolylines(gj, 'r');
+    if (polys.length) {
+      // ⚠ GL 的 PolygonStyle 没有 fillColor/fillOpacity 这两个属性（写了会被静默忽略，
+      //   于是多边形退回不透明填充，把底图全糊住）。填充色必须用 color + rgba() 写透明度，
+      //   边线用 showBorder/borderColor/borderWidth。查询结果只留边界 → alpha=0。
+      overlays.result.push(new TMap.MultiPolygon({ map,
+        styles: { r: new TMap.PolygonStyle({ color:'rgba(31,78,121,0)',
+          showBorder: true, borderColor:'rgba(31,78,121,1)', borderWidth:2.5 }) },
+        geometries: polys }));
+      polys.forEach(p => p.paths.forEach(r => r.forEach(p2 => bounds.push(p2))));
+    }
+    if (lines.length) {
+      overlays.result.push(new TMap.MultiPolyline({ map,
+        styles: { r: new TMap.PolylineStyle({ color:'#1f4e79', width:5,
+          borderWidth:1, borderColor:'#ffffff', lineCap:'round' }) },
+        geometries: lines }));
+      lines.forEach(l => l.paths.forEach(p => bounds.push(p)));
+    }
+  });
+  applyLayerVisibility('result');   // 尊重「本次查询结果」的勾选状态
+  if (bounds.length && layerVisible.result) {
+    const lats = bounds.map(b=>b.lat), lngs = bounds.map(b=>b.lng);
+    map.fitBounds(new TMap.LatLngBounds(
+      new TMap.LatLng(Math.min(...lats), Math.min(...lngs)),
+      new TMap.LatLng(Math.max(...lats), Math.max(...lngs))), { padding: 60 });
+  }
+}
+
+// ── 对话 ───────────────────────────────────────────
+const log = document.getElementById('log');
+const qEl = document.getElementById('q');
+const sendBtn = document.getElementById('send');
+
+function addMsg(who, html, cls){
+  const d = document.createElement('div');
+  d.className = 'msg ' + cls;
+  d.innerHTML = '<div class="who">' + who + '</div><div class="bubble">' + html + '</div>';
+  log.appendChild(d); log.scrollTop = log.scrollHeight;
+  return d;
+}
+function esc(s){ return (s||'').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+function fmt(text){
+  let h = esc(text);
+  h = h.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  h = h.replace(/`([^`]+)`/g, '<code>$1</code>');
+  return h.replace(/\n/g, '<br>');
+}
+
+async function ask(q){
+  if (!q.trim()) return;
+  addMsg('你', esc(q), 'user');
+  qEl.value = ''; sendBtn.disabled = true;
+  const holder = addMsg('GeoAgent · ' + engineName, '<span style="color:#6b7280">思考中…</span>', 'bot');
+
+  try {
+    const r = await fetch('/api/chat', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ query:q, engine:engineName })
+    });
+    const d = await r.json();
+    const tr = d.trace || {};
+    let html = fmt(d.answer || d.error || '（无回答）');
+
+    // 执行详情（工具调用链 + 统计）默认收起，普通用户不被打扰；
+    // 需要排查/演示时点开「执行详情」即可看到完整 trace。
+    const steps = tr.steps || [];
+    let dbg = '';
+    if (steps.length) {
+      dbg += '<div class="trace">' + steps.map(s => {
+        const args = JSON.stringify(s.args || {});
+        const mark = s.ok ? '<span class="ok">✓</span>' : '<span class="bad">✗</span>';
+        return `<div class="t">${mark} <b>${esc(s.name)}</b>(${esc(args.slice(0,72))})
+                <span style="opacity:.7">${s.elapsed_ms}ms</span>
+                ${s.ok ? '' : '<span class="bad">' + esc(s.error_code||'') + '</span>'}</div>`;
+      }).join('') + '</div>';
+    }
+    if (tr.usage) {
+      dbg += `<div class="stats">LLM ${tr.llm_calls} 次 · 工具 ${tr.tool_calls} 次`
+            + `（失败 ${tr.tool_errors}）· ${tr.elapsed_s}s · `
+            + `${tr.usage.total_tokens} token · 图层 ${tr.geo_layer_count} 个 · ${d.display_crs || ''}</div>`;
+    }
+    if (dbg) {
+      html += '<details class="dbg"><summary>执行详情</summary>' + dbg + '</details>';
+    }
+    holder.querySelector('.bubble').innerHTML = html;
+    drawResult(d.geo_layers || []);
+  } catch (e) {
+    holder.querySelector('.bubble').innerHTML = '<span style="color:#e24b4a">请求失败：' + esc(String(e)) + '</span>';
+  }
+  sendBtn.disabled = false; log.scrollTop = log.scrollHeight;
+}
+
+sendBtn.onclick = () => ask(qEl.value);
+qEl.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); ask(qEl.value); }
+});
+document.querySelectorAll('.chips button').forEach(b =>
+  b.onclick = () => ask(b.textContent));
+document.querySelectorAll('.engines button').forEach(b =>
+  b.onclick = () => {
+    document.querySelectorAll('.engines button').forEach(x => x.classList.remove('on'));
+    b.classList.add('on'); engineName = b.dataset.e;
+  });
+document.querySelectorAll('#legend input[data-layer]').forEach(cb =>
+  cb.onchange = () => {
+    layerVisible[cb.dataset.layer] = cb.checked;
+    applyLayerVisibility(cb.dataset.layer);
+  });
+
+addMsg('GeoAgent', '你好，我可以回答校园里的空间问题——停车区范围查询、最近设施、'
+  + '路径规划、区域归属判定。直接问我就行。', 'bot');
+</script>
+</body>
+</html>

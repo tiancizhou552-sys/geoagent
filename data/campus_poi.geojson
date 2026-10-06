@@ -1,0 +1,8847 @@
+{
+ "type": "FeatureCollection",
+ "name": "campus_poi",
+ "source": "Tencent Maps WebService (scripts/fetch_poi_tmap.py)",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3468495,
+     30.4745635
+    ]
+   },
+   "properties": {
+    "poi_id": "P0001",
+    "name": "华中农业大学动物医学院",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "动物医学院",
+     "华中农业大学动物医学院"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:6233020753271238844"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3477392,
+     30.4748479
+    ]
+   },
+   "properties": {
+    "poi_id": "P0002",
+    "name": "华中农业大学国家兽药残留基准实验室",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "华中农业大学国家兽药残留基准实验室",
+     "国家兽药残留基准实验室"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15489638250649285469"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3570532,
+     30.4754641
+    ]
+   },
+   "properties": {
+    "poi_id": "P0003",
+    "name": "华中农业大学学生综合服务大楼",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "华中农业大学学生综合服务大楼",
+     "学生综合服务大楼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:3135657680732598748"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3519731,
+     30.4749675
+    ]
+   },
+   "properties": {
+    "poi_id": "P0004",
+    "name": "华中农业大学文法学院",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "华中农业大学文法学院",
+     "文法学院"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:6280376280372028294"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3504842,
+     30.4745792
+    ]
+   },
+   "properties": {
+    "poi_id": "P0005",
+    "name": "华中农业大学果蔬园艺作物种质创新与利用全国重点实验室",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "华中农业大学果蔬园艺作物种质创新与利用全国重点实验室",
+     "果蔬园艺作物种质创新与利用全国重点实验室"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:12528458013393787848"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3479848,
+     30.4755752
+    ]
+   },
+   "properties": {
+    "poi_id": "P0006",
+    "name": "华中农业大学第一综合大楼B座",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "华中农业大学第一综合大楼B座",
+     "第一综合大楼B座"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17094402354066123143"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3527851,
+     30.4735155
+    ]
+   },
+   "properties": {
+    "poi_id": "P0007",
+    "name": "华中农业大学经济管理学院",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "华中农业大学经济管理学院",
+     "经济管理学院"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:14465533276188827717"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3544958,
+     30.472406
+    ]
+   },
+   "properties": {
+    "poi_id": "P0008",
+    "name": "华中农业大学食品科学技术学院",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "华中农业大学食品科学技术学院",
+     "食品科学技术学院"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:12762944784724334096"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3520486,
+     30.4789123
+    ]
+   },
+   "properties": {
+    "poi_id": "P0009",
+    "name": "华农化学学院",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "化学学院",
+     "华农化学学院"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11169285187991423054"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3507198,
+     30.4755415
+    ]
+   },
+   "properties": {
+    "poi_id": "P0010",
+    "name": "华农园林北楼",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "华农园林北楼",
+     "园林北楼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:287203877906376714"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3506959,
+     30.4747028
+    ]
+   },
+   "properties": {
+    "poi_id": "P0011",
+    "name": "华农园林南楼",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "华农园林南楼",
+     "园林南楼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16987347372344592949"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3507019,
+     30.4751506
+    ]
+   },
+   "properties": {
+    "poi_id": "P0012",
+    "name": "华农园林楼",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "华农园林楼",
+     "园林楼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:9256784999315401051"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3528759,
+     30.4735184
+    ]
+   },
+   "properties": {
+    "poi_id": "P0013",
+    "name": "华农土地管理学院",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "华农土地管理学院",
+     "土地管理学院"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1022907148102113662"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3549642,
+     30.4724832
+    ]
+   },
+   "properties": {
+    "poi_id": "P0014",
+    "name": "华农新工科大楼",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "华农新工科大楼",
+     "新工科大楼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:4643328778842796246"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3477411,
+     30.4754917
+    ]
+   },
+   "properties": {
+    "poi_id": "P0015",
+    "name": "华农第一综合大楼",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "华农第一综合大楼",
+     "第一综合大楼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2242025400635043882"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.348533,
+     30.4755833
+    ]
+   },
+   "properties": {
+    "poi_id": "P0016",
+    "name": "华农第一综合大楼-A座",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "华农第一综合大楼-A座",
+     "第一综合大楼-A座"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1561140337689018923"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3388548,
+     30.4766036
+    ]
+   },
+   "properties": {
+    "poi_id": "P0017",
+    "name": "天惠楼",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "天惠楼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16430908348499895920"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3501074,
+     30.4783678
+    ]
+   },
+   "properties": {
+    "poi_id": "P0018",
+    "name": "行政楼[公交站]",
+    "category": "academic",
+    "category_cn": "学院与科研",
+    "aliases": [
+     "行政楼[公交站]"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2199030111009"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3449202,
+     30.4772352
+    ]
+   },
+   "properties": {
+    "poi_id": "P0019",
+    "name": "中国工商银行(武汉华农支行)",
+    "category": "bank",
+    "category_cn": "银行",
+    "aliases": [
+     "中国工商银行(武汉华农支行)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:18293092390094557630"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3449202,
+     30.4772342
+    ]
+   },
+   "properties": {
+    "poi_id": "P0020",
+    "name": "中国工商银行ATM(华农支行)",
+    "category": "bank",
+    "category_cn": "银行",
+    "aliases": [
+     "中国工商银行ATM(华农支行)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:18057722604308411482"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3437649,
+     30.4780461
+    ]
+   },
+   "properties": {
+    "poi_id": "P0021",
+    "name": "中国银行(华农支行)",
+    "category": "bank",
+    "category_cn": "银行",
+    "aliases": [
+     "中国银行(华农支行)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:4018709626340743510"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.358751,
+     30.4757213
+    ]
+   },
+   "properties": {
+    "poi_id": "P0022",
+    "name": "中国银行(狮子山大道)",
+    "category": "bank",
+    "category_cn": "银行",
+    "aliases": [
+     "中国银行(狮子山大道)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10080137458397794626"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3438987,
+     30.4780489
+    ]
+   },
+   "properties": {
+    "poi_id": "P0023",
+    "name": "中国银行24小时自助银行(华农支行)",
+    "category": "bank",
+    "category_cn": "银行",
+    "aliases": [
+     "中国银行24小时自助银行(华农支行)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15979407643729446059"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3448414,
+     30.4771244
+    ]
+   },
+   "properties": {
+    "poi_id": "P0024",
+    "name": "汉口银行(华农支行)",
+    "category": "bank",
+    "category_cn": "银行",
+    "aliases": [
+     "汉口银行(华农支行)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:9768391378718899711"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3485875,
+     30.4795081
+    ]
+   },
+   "properties": {
+    "poi_id": "P0025",
+    "name": "华中农业大学-竹苑食堂(学院路店)",
+    "category": "canteen",
+    "category_cn": "食堂",
+    "aliases": [
+     "-竹苑食堂(学院路店)",
+     "华中农业大学-竹苑食堂(学院路店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16728636795887691622"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3560077,
+     30.4736562
+    ]
+   },
+   "properties": {
+    "poi_id": "P0026",
+    "name": "华中农业大学桃园食堂",
+    "category": "canteen",
+    "category_cn": "食堂",
+    "aliases": [
+     "华中农业大学桃园食堂",
+     "华中农业大学桃园餐厅",
+     "桃园食堂",
+     "桃园餐厅"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:4964042876725146145"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.357683,
+     30.4789081
+    ]
+   },
+   "properties": {
+    "poi_id": "P0027",
+    "name": "华中农业大学橘园食堂",
+    "category": "canteen",
+    "category_cn": "食堂",
+    "aliases": [
+     "华中农业大学橘园食堂",
+     "华中农业大学橘园餐厅",
+     "橘园食堂",
+     "橘园餐厅"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7392681764282307793"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3563071,
+     30.4754362
+    ]
+   },
+   "properties": {
+    "poi_id": "P0028",
+    "name": "三味美食城",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "三味美食城"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1195866234727385827"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3442123,
+     30.4779903
+    ]
+   },
+   "properties": {
+    "poi_id": "P0029",
+    "name": "不颠哥港式甜品",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "不颠哥港式甜品"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7501530178664111448"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3448424,
+     30.4769155
+    ]
+   },
+   "properties": {
+    "poi_id": "P0030",
+    "name": "云山俏云南小锅米线",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "云山俏云南小锅米线"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:18400889866411257286"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3442963,
+     30.4759417
+    ]
+   },
+   "properties": {
+    "poi_id": "P0031",
+    "name": "亮亮烧烤(狮子山大道店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "亮亮烧烤(狮子山大道店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:18373258158891208207"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3445089,
+     30.4765922
+    ]
+   },
+   "properties": {
+    "poi_id": "P0032",
+    "name": "优优广味养生鸡煲(梧桐路步行街店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "优优广味养生鸡煲(梧桐路步行街店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2943455543899468304"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3439947,
+     30.4772739
+    ]
+   },
+   "properties": {
+    "poi_id": "P0033",
+    "name": "刘吉记瓦香石锅鸡(华农梧桐广场店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "刘吉记瓦香石锅鸡(华农梧桐广场店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:13766406046842633562"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3439747,
+     30.4774589
+    ]
+   },
+   "properties": {
+    "poi_id": "P0034",
+    "name": "刘老三串串火锅",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "刘老三串串火锅"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:13988600211588360831"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3443202,
+     30.4772613
+    ]
+   },
+   "properties": {
+    "poi_id": "P0035",
+    "name": "匠心卤(华中农业大学店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "匠心卤(华中农业大学店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:12341363016159446889"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3481733,
+     30.4779463
+    ]
+   },
+   "properties": {
+    "poi_id": "P0036",
+    "name": "华中农业大学国际交流中心餐厅(学院路店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "华中农业大学国际交流中心餐厅(学院路店)",
+     "国际交流中心餐厅(学院路店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1474752095238845192"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3563131,
+     30.4753982
+    ]
+   },
+   "properties": {
+    "poi_id": "P0037",
+    "name": "华中农业大学荟园餐厅",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "华中农业大学荟园食堂",
+     "华中农业大学荟园餐厅",
+     "荟园食堂",
+     "荟园餐厅"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7250089438857407696"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3439835,
+     30.4786666
+    ]
+   },
+   "properties": {
+    "poi_id": "P0038",
+    "name": "华农西苑餐厅",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "华农西苑食堂",
+     "华农西苑餐厅",
+     "西苑食堂",
+     "西苑餐厅"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2662696565776068709"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3446966,
+     30.4772147
+    ]
+   },
+   "properties": {
+    "poi_id": "P0039",
+    "name": "华莱士·全鸡汉堡(华农店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "华莱士·全鸡汉堡(华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10336683437780478330"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3446177,
+     30.4774377
+    ]
+   },
+   "properties": {
+    "poi_id": "P0040",
+    "name": "又渣肉夹馍(华农梧桐路店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "又渣肉夹馍(华农梧桐路店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10454937230751235407"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.356523,
+     30.4740883
+    ]
+   },
+   "properties": {
+    "poi_id": "P0041",
+    "name": "古茗(华中农业大学桃园店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "古茗(华中农业大学桃园店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7499641735167459643"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3445279,
+     30.4766741
+    ]
+   },
+   "properties": {
+    "poi_id": "P0042",
+    "name": "周包包(华中农业大学店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "周包包(华中农业大学店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7146687151700118728"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.355397,
+     30.4788828
+    ]
+   },
+   "properties": {
+    "poi_id": "P0043",
+    "name": "呷哺呷哺 黄金牧场(武汉华中农业大学店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "呷哺呷哺 黄金牧场(武汉华中农业大学店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1845973902298743608"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3436141,
+     30.4788932
+    ]
+   },
+   "properties": {
+    "poi_id": "P0044",
+    "name": "四季红餐馆(华中农业大学店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "四季红餐馆(华中农业大学店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16777912122451511443"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3445857,
+     30.4773018
+    ]
+   },
+   "properties": {
+    "poi_id": "P0045",
+    "name": "塔斯汀中国汉堡(华农大学店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "塔斯汀中国汉堡(华农大学店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:12490465236853088551"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3439258,
+     30.4771281
+    ]
+   },
+   "properties": {
+    "poi_id": "P0046",
+    "name": "大饼熊鲜烤面包(华农店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "大饼熊鲜烤面包(华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7702540309246347803"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3438639,
+     30.4772891
+    ]
+   },
+   "properties": {
+    "poi_id": "P0047",
+    "name": "巴比鲜包(华农店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "巴比鲜包(华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:6083968994433211382"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3447584,
+     30.4776784
+    ]
+   },
+   "properties": {
+    "poi_id": "P0048",
+    "name": "库迪咖啡(华中农业大学步行街店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "库迪咖啡(华中农业大学步行街店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15667717404628813120"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3567027,
+     30.474193
+    ]
+   },
+   "properties": {
+    "poi_id": "P0049",
+    "name": "库迪咖啡(华中农业大学荟园小站店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "库迪咖啡(华中农业大学荟园小站店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10301622682519460528"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3447245,
+     30.4773316
+    ]
+   },
+   "properties": {
+    "poi_id": "P0050",
+    "name": "御品片皮鸭",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "御品片皮鸭"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17975933805722918765"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3446447,
+     30.4771558
+    ]
+   },
+   "properties": {
+    "poi_id": "P0051",
+    "name": "手撕烤鸭",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "手撕烤鸭"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:6670937425235571767"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3448324,
+     30.4770834
+    ]
+   },
+   "properties": {
+    "poi_id": "P0052",
+    "name": "旺鸭旺烧腊饭",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "旺鸭旺烧腊饭"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8709412371320200558"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3445419,
+     30.4765571
+    ]
+   },
+   "properties": {
+    "poi_id": "P0053",
+    "name": "李记锅盔(梧桐路店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "李记锅盔(梧桐路店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17293135678182811415"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3440046,
+     30.4773939
+    ]
+   },
+   "properties": {
+    "poi_id": "P0054",
+    "name": "杨国福麻辣烫(华中农业大学店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "杨国福麻辣烫(华中农业大学店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16028483958476797809"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3446237,
+     30.4771148
+    ]
+   },
+   "properties": {
+    "poi_id": "P0055",
+    "name": "桃园餐馆",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "桃园餐馆"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8382028307026450926"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3446756,
+     30.4771277
+    ]
+   },
+   "properties": {
+    "poi_id": "P0056",
+    "name": "正新鸡排(小样鸡排店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "正新鸡排(小样鸡排店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5073118399582298377"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3445617,
+     30.4779687
+    ]
+   },
+   "properties": {
+    "poi_id": "P0057",
+    "name": "毛辣果的客厅(华中农业大学店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "毛辣果的客厅(华中农业大学店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:6040563955767874056"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3443221,
+     30.4773953
+    ]
+   },
+   "properties": {
+    "poi_id": "P0058",
+    "name": "江西小炒",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "江西小炒"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15496648131531084913"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3448204,
+     30.4768705
+    ]
+   },
+   "properties": {
+    "poi_id": "P0059",
+    "name": "沙县小吃(梧桐路步行街店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "沙县小吃(梧桐路步行街店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16032275418024092875"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3444953,
+     30.4728272
+    ]
+   },
+   "properties": {
+    "poi_id": "P0060",
+    "name": "洪创咖啡",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "洪创咖啡"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7689896179889562521"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3444629,
+     30.4777429
+    ]
+   },
+   "properties": {
+    "poi_id": "P0061",
+    "name": "浅浅卤味",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "浅浅卤味"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16652619204897881885"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3441434,
+     30.4775036
+    ]
+   },
+   "properties": {
+    "poi_id": "P0062",
+    "name": "清真兰州拉面(华农店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "清真兰州拉面(华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:9590065005829759629"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3441714,
+     30.4773826
+    ]
+   },
+   "properties": {
+    "poi_id": "P0063",
+    "name": "烧卤家族·新疆炒米粉",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "烧卤家族·新疆炒米粉"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17722353584225171123"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3441484,
+     30.4774636
+    ]
+   },
+   "properties": {
+    "poi_id": "P0064",
+    "name": "焦本味·铁板焦饭(华农店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "焦本味·铁板焦饭(华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:977719161705095778"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3446626,
+     30.4774647
+    ]
+   },
+   "properties": {
+    "poi_id": "P0065",
+    "name": "爱辣啵啵鱼(华中农业大学店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "爱辣啵啵鱼(华中农业大学店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8778228947424467035"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3441843,
+     30.4777214
+    ]
+   },
+   "properties": {
+    "poi_id": "P0066",
+    "name": "牛一品(南湖路店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "牛一品(南湖路店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:4826100173827521392"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3446077,
+     30.4768389
+    ]
+   },
+   "properties": {
+    "poi_id": "P0067",
+    "name": "牛爷烧土家鲜肉饼",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "牛爷烧土家鲜肉饼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17458297969552507201"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3437899,
+     30.4775072
+    ]
+   },
+   "properties": {
+    "poi_id": "P0068",
+    "name": "狮山咖啡",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "狮山咖啡"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8535798847275566477"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.343787,
+     30.4772863
+    ]
+   },
+   "properties": {
+    "poi_id": "P0069",
+    "name": "瑞幸咖啡(华中农业大学农贸大楼店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "瑞幸咖啡(华中农业大学农贸大楼店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:784324759162495733"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3575296,
+     30.4748845
+    ]
+   },
+   "properties": {
+    "poi_id": "P0070",
+    "name": "瑞幸咖啡(华中农业大学南区宿舍店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "瑞幸咖啡(华中农业大学南区宿舍店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:12140042627956086960"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.355432,
+     30.4788507
+    ]
+   },
+   "properties": {
+    "poi_id": "P0071",
+    "name": "瑞幸咖啡(华中农业大学博园店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "瑞幸咖啡(华中农业大学博园店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10809712153958490914"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3474494,
+     30.4775576
+    ]
+   },
+   "properties": {
+    "poi_id": "P0072",
+    "name": "瑞幸咖啡(华中农业大学店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "瑞幸咖啡(华中农业大学店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5205319237916813959"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3448374,
+     30.4769355
+    ]
+   },
+   "properties": {
+    "poi_id": "P0073",
+    "name": "皇冠幸福里动物奶油生日蛋糕(华农店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "皇冠幸福里动物奶油生日蛋糕(华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10108665855261228391"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3567047,
+     30.4743889
+    ]
+   },
+   "properties": {
+    "poi_id": "P0074",
+    "name": "益禾堂(华中农业大学校内店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "益禾堂(华中农业大学校内店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1832200784492472198"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3445548,
+     30.4766151
+    ]
+   },
+   "properties": {
+    "poi_id": "P0075",
+    "name": "祥客基鲍汁焖鸡鸡公煲(华中农业大学店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "祥客基鲍汁焖鸡鸡公煲(华中农业大学店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17525981169873987081"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3485835,
+     30.4797231
+    ]
+   },
+   "properties": {
+    "poi_id": "P0076",
+    "name": "简朴寨湖北菜(华农店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "简朴寨湖北菜(华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1044848043371373558"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3446107,
+     30.4774088
+    ]
+   },
+   "properties": {
+    "poi_id": "P0077",
+    "name": "粮山功夫手抓饼",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "粮山功夫手抓饼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:6014358159350906426"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3448673,
+     30.4779352
+    ]
+   },
+   "properties": {
+    "poi_id": "P0078",
+    "name": "精武路鸭脖(国际学术交流中心店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "精武路鸭脖(国际学术交流中心店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:6239073086276020495"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3448484,
+     30.4769734
+    ]
+   },
+   "properties": {
+    "poi_id": "P0079",
+    "name": "美冒冒菜文艺小馆(华农店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "美冒冒菜文艺小馆(华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5148302175245442018"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3441644,
+     30.4775415
+    ]
+   },
+   "properties": {
+    "poi_id": "P0080",
+    "name": "老街烧烤(华中农业大学梧桐路步行街店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "老街烧烤(华中农业大学梧桐路步行街店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:13800168106278955950"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3443221,
+     30.4774163
+    ]
+   },
+   "properties": {
+    "poi_id": "P0081",
+    "name": "老麻抄手(华农店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "老麻抄手(华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:4463794433654552549"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3553221,
+     30.4788089
+    ]
+   },
+   "properties": {
+    "poi_id": "P0082",
+    "name": "肯德基(华农校园店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "肯德基(华农校园店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17006307456705265368"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3443231,
+     30.4774923
+    ]
+   },
+   "properties": {
+    "poi_id": "P0083",
+    "name": "荆沙沙市女人街串串华农梧桐广场店",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "荆沙沙市女人街串串华农梧桐广场店"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:14530543178904490849"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3441644,
+     30.4777215
+    ]
+   },
+   "properties": {
+    "poi_id": "P0084",
+    "name": "蔡林记(华农店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "蔡林记(华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17015672029192301431"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3574607,
+     30.4749495
+    ]
+   },
+   "properties": {
+    "poi_id": "P0085",
+    "name": "蜜雪冰城(华农荟园店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "蜜雪冰城(华农荟园店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11627059533453328300"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3446008,
+     30.4768099
+    ]
+   },
+   "properties": {
+    "poi_id": "P0086",
+    "name": "蜜雪冰城·冰淇淋与茶(华农1店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "蜜雪冰城·冰淇淋与茶(华农1店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2436870604673772790"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3447125,
+     30.4772826
+    ]
+   },
+   "properties": {
+    "poi_id": "P0087",
+    "name": "醉得意·山茶油炒土鸡(华农店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "醉得意·山茶油炒土鸡(华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1615071812724759820"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3446077,
+     30.4768389
+    ]
+   },
+   "properties": {
+    "poi_id": "P0088",
+    "name": "重庆小面(梧桐路步行街店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "重庆小面(梧桐路步行街店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1596818295479023179"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.347916,
+     30.4742257
+    ]
+   },
+   "properties": {
+    "poi_id": "P0089",
+    "name": "问学咖啡",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "问学咖啡"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8375983763887341727"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3443231,
+     30.4774743
+    ]
+   },
+   "properties": {
+    "poi_id": "P0090",
+    "name": "鸡柳大人(武汉华中农业大学店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "鸡柳大人(武汉华中农业大学店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:850407230525468021"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3448544,
+     30.4769964
+    ]
+   },
+   "properties": {
+    "poi_id": "P0091",
+    "name": "麋鹿牛肉粉(华农店)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "麋鹿牛肉粉(华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:6254392835482495612"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3567047,
+     30.4743359
+    ]
+   },
+   "properties": {
+    "poi_id": "P0092",
+    "name": "麦当劳(武汉华中农业大学荟园餐厅)",
+    "category": "dining",
+    "category_cn": "餐饮",
+    "aliases": [
+     "麦当劳(武汉华中农业大学荟园餐厅)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17811083559663946315"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3486523,
+     30.4812095
+    ]
+   },
+   "properties": {
+    "poi_id": "P0093",
+    "name": "北苑6栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "北6",
+     "北6栋",
+     "北六",
+     "北六栋",
+     "北苑6",
+     "北苑6栋",
+     "北苑六",
+     "北苑六栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2747808399391013990"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3494391,
+     30.4820509
+    ]
+   },
+   "properties": {
+    "poi_id": "P0094",
+    "name": "华中农业大学北苑10栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "北10",
+     "北10栋",
+     "北十",
+     "北十栋",
+     "北苑10",
+     "北苑10栋",
+     "北苑十",
+     "北苑十栋",
+     "华中农业大学北苑10栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16615170310312180816"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3501471,
+     30.481097
+    ]
+   },
+   "properties": {
+    "poi_id": "P0095",
+    "name": "华中农业大学北苑11栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "北11",
+     "北11栋",
+     "北十一",
+     "北十一栋",
+     "北苑11",
+     "北苑11栋",
+     "北苑十一",
+     "北苑十一栋",
+     "华中农业大学北苑11栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2372693828179933593"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3505675,
+     30.4811142
+    ]
+   },
+   "properties": {
+    "poi_id": "P0096",
+    "name": "华中农业大学北苑12栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "北12",
+     "北12栋",
+     "北十二",
+     "北十二栋",
+     "北苑12",
+     "北苑12栋",
+     "北苑十二",
+     "北苑十二栋",
+     "华中农业大学北苑12栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2397887609681061966"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3503009,
+     30.4813906
+    ]
+   },
+   "properties": {
+    "poi_id": "P0097",
+    "name": "华中农业大学北苑13栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "北13",
+     "北13栋",
+     "北十三",
+     "北十三栋",
+     "北苑13",
+     "北苑13栋",
+     "北苑十三",
+     "北苑十三栋",
+     "华中农业大学北苑13栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11223959035898562772"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3503388,
+     30.4817255
+    ]
+   },
+   "properties": {
+    "poi_id": "P0098",
+    "name": "华中农业大学北苑14栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "北14",
+     "北14栋",
+     "北十四",
+     "北十四栋",
+     "北苑14",
+     "北苑14栋",
+     "北苑十四",
+     "北苑十四栋",
+     "华中农业大学北苑14栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:6604838751586309656"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3503088,
+     30.4820324
+    ]
+   },
+   "properties": {
+    "poi_id": "P0099",
+    "name": "华中农业大学北苑15栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "北15",
+     "北15栋",
+     "北十五",
+     "北十五栋",
+     "北苑15",
+     "北苑15栋",
+     "北苑十五",
+     "北苑十五栋",
+     "华中农业大学北苑15栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2544243653008378511"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3475769,
+     30.4811534
+    ]
+   },
+   "properties": {
+    "poi_id": "P0100",
+    "name": "华中农业大学北苑1栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "北1",
+     "北1栋",
+     "北一",
+     "北一栋",
+     "北苑1",
+     "北苑1栋",
+     "北苑一",
+     "北苑一栋",
+     "华中农业大学北苑1栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8774134906456519949"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3475938,
+     30.4815343
+    ]
+   },
+   "properties": {
+    "poi_id": "P0101",
+    "name": "华中农业大学北苑2栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "北2",
+     "北2栋",
+     "北二",
+     "北二栋",
+     "北苑2",
+     "北苑2栋",
+     "北苑二",
+     "北苑二栋",
+     "华中农业大学北苑2栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:9143775491199494359"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3476228,
+     30.4818382
+    ]
+   },
+   "properties": {
+    "poi_id": "P0102",
+    "name": "华中农业大学北苑3栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "北3",
+     "北3栋",
+     "北三",
+     "北三栋",
+     "北苑3",
+     "北苑3栋",
+     "北苑三",
+     "北苑三栋",
+     "华中农业大学北苑3栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7536256630548320811"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3475978,
+     30.4821011
+    ]
+   },
+   "properties": {
+    "poi_id": "P0103",
+    "name": "华中农业大学北苑4栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "北4",
+     "北4栋",
+     "北四",
+     "北四栋",
+     "北苑4",
+     "北苑4栋",
+     "北苑四",
+     "北苑四栋",
+     "华中农业大学北苑4栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11863344800548083087"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3486493,
+     30.4808106
+    ]
+   },
+   "properties": {
+    "poi_id": "P0104",
+    "name": "华中农业大学北苑5栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "北5",
+     "北5栋",
+     "北五",
+     "北五栋",
+     "北苑5",
+     "北苑5栋",
+     "北苑五",
+     "北苑五栋",
+     "华中农业大学北苑5栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11954228916107349055"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3484366,
+     30.4814658
+    ]
+   },
+   "properties": {
+    "poi_id": "P0105",
+    "name": "华中农业大学北苑7栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "北7",
+     "北7栋",
+     "北七",
+     "北七栋",
+     "北苑7",
+     "北苑7栋",
+     "北苑七",
+     "北苑七栋",
+     "华中农业大学北苑7栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7169256332774829713"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3483257,
+     30.4820649
+    ]
+   },
+   "properties": {
+    "poi_id": "P0106",
+    "name": "华中农业大学北苑8栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "北8",
+     "北8栋",
+     "北八",
+     "北八栋",
+     "北苑8",
+     "北苑8栋",
+     "北苑八",
+     "北苑八栋",
+     "华中农业大学北苑8栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7344991451411712857"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3494631,
+     30.4810981
+    ]
+   },
+   "properties": {
+    "poi_id": "P0107",
+    "name": "华中农业大学北苑9栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "北9",
+     "北9栋",
+     "北九",
+     "北九栋",
+     "北苑9",
+     "北苑9栋",
+     "北苑九",
+     "北苑九栋",
+     "华中农业大学北苑9栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1699219902947736437"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3454374,
+     30.4776032
+    ]
+   },
+   "properties": {
+    "poi_id": "P0108",
+    "name": "华中农业大学南苑小区10栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区10栋",
+     "南10",
+     "南10栋",
+     "南十",
+     "南十栋",
+     "南苑10",
+     "南苑10栋",
+     "南苑十",
+     "南苑十栋",
+     "南苑小区10栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:3059040242135180596"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3458568,
+     30.4776105
+    ]
+   },
+   "properties": {
+    "poi_id": "P0109",
+    "name": "华中农业大学南苑小区11栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区11栋",
+     "南11",
+     "南11栋",
+     "南十一",
+     "南十一栋",
+     "南苑11",
+     "南苑11栋",
+     "南苑十一",
+     "南苑十一栋",
+     "南苑小区11栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1348769818944101092"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3452037,
+     30.4788053
+    ]
+   },
+   "properties": {
+    "poi_id": "P0110",
+    "name": "华中农业大学南苑小区12栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区12栋",
+     "南12",
+     "南12栋",
+     "南十二",
+     "南十二栋",
+     "南苑12",
+     "南苑12栋",
+     "南苑十二",
+     "南苑十二栋",
+     "南苑小区12栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11085387757108677851"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3451987,
+     30.4790532
+    ]
+   },
+   "properties": {
+    "poi_id": "P0111",
+    "name": "华中农业大学南苑小区13栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区13栋",
+     "南13",
+     "南13栋",
+     "南十三",
+     "南十三栋",
+     "南苑13",
+     "南苑13栋",
+     "南苑十三",
+     "南苑十三栋",
+     "南苑小区13栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:12811611718228788531"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3452296,
+     30.4792521
+    ]
+   },
+   "properties": {
+    "poi_id": "P0112",
+    "name": "华中农业大学南苑小区14栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区14栋",
+     "南14",
+     "南14栋",
+     "南十四",
+     "南十四栋",
+     "南苑14",
+     "南苑14栋",
+     "南苑十四",
+     "南苑十四栋",
+     "南苑小区14栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:9646758958625484360"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3456929,
+     30.4787774
+    ]
+   },
+   "properties": {
+    "poi_id": "P0113",
+    "name": "华中农业大学南苑小区15栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区15栋",
+     "南15",
+     "南15栋",
+     "南十五",
+     "南十五栋",
+     "南苑15",
+     "南苑15栋",
+     "南苑十五",
+     "南苑十五栋",
+     "南苑小区15栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:896013934133290521"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3456959,
+     30.4792083
+    ]
+   },
+   "properties": {
+    "poi_id": "P0114",
+    "name": "华中农业大学南苑小区16栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区16栋",
+     "南16",
+     "南16栋",
+     "南十六",
+     "南十六栋",
+     "南苑16",
+     "南苑16栋",
+     "南苑十六",
+     "南苑十六栋",
+     "南苑小区16栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15764857418051232325"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3462501,
+     30.4788374
+    ]
+   },
+   "properties": {
+    "poi_id": "P0115",
+    "name": "华中农业大学南苑小区17栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区17栋",
+     "南17",
+     "南17栋",
+     "南十七",
+     "南十七栋",
+     "南苑17",
+     "南苑17栋",
+     "南苑十七",
+     "南苑十七栋",
+     "南苑小区17栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16818999815060306460"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.346309,
+     30.4790892
+    ]
+   },
+   "properties": {
+    "poi_id": "P0116",
+    "name": "华中农业大学南苑小区18栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区18栋",
+     "南18",
+     "南18栋",
+     "南十八",
+     "南十八栋",
+     "南苑18",
+     "南苑18栋",
+     "南苑十八",
+     "南苑十八栋",
+     "南苑小区18栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8605734155856502312"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3463269,
+     30.4792962
+    ]
+   },
+   "properties": {
+    "poi_id": "P0117",
+    "name": "华中农业大学南苑小区19栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区19栋",
+     "南19",
+     "南19栋",
+     "南十九",
+     "南十九栋",
+     "南苑19",
+     "南苑19栋",
+     "南苑十九",
+     "南苑十九栋",
+     "南苑小区19栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1937445075508827682"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3448664,
+     30.4762816
+    ]
+   },
+   "properties": {
+    "poi_id": "P0118",
+    "name": "华中农业大学南苑小区1栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区1栋",
+     "南1",
+     "南1栋",
+     "南一",
+     "南一栋",
+     "南苑1",
+     "南苑1栋",
+     "南苑一",
+     "南苑一栋",
+     "南苑小区1栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:14267322056564100675"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3452116,
+     30.4795751
+    ]
+   },
+   "properties": {
+    "poi_id": "P0119",
+    "name": "华中农业大学南苑小区20栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区20栋",
+     "南20",
+     "南20栋",
+     "南二十",
+     "南二十栋",
+     "南苑20",
+     "南苑20栋",
+     "南苑二十",
+     "南苑二十栋",
+     "南苑小区20栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8761618734629377751"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3462171,
+     30.4795633
+    ]
+   },
+   "properties": {
+    "poi_id": "P0120",
+    "name": "华中农业大学南苑小区21栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区21栋",
+     "南21",
+     "南21栋",
+     "南二十一",
+     "南二十一栋",
+     "南苑21",
+     "南苑21栋",
+     "南苑二十一",
+     "南苑二十一栋",
+     "南苑小区21栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7502053958081040278"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3473385,
+     30.4787095
+    ]
+   },
+   "properties": {
+    "poi_id": "P0121",
+    "name": "华中农业大学南苑小区23栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区23栋",
+     "南23",
+     "南23栋",
+     "南二十三",
+     "南二十三栋",
+     "南苑23",
+     "南苑23栋",
+     "南苑二十三",
+     "南苑二十三栋",
+     "南苑小区23栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1313237710205348586"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3473384,
+     30.4789725
+    ]
+   },
+   "properties": {
+    "poi_id": "P0122",
+    "name": "华中农业大学南苑小区24栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区24栋",
+     "南24",
+     "南24栋",
+     "南二十四",
+     "南二十四栋",
+     "南苑24",
+     "南苑24栋",
+     "南苑二十四",
+     "南苑二十四栋",
+     "南苑小区24栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:13131529096670277922"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3473953,
+     30.4793053
+    ]
+   },
+   "properties": {
+    "poi_id": "P0123",
+    "name": "华中农业大学南苑小区25栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区25栋",
+     "南25",
+     "南25栋",
+     "南二十五",
+     "南二十五栋",
+     "南苑25",
+     "南苑25栋",
+     "南苑二十五",
+     "南苑二十五栋",
+     "南苑小区25栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:12047801956347663418"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3472535,
+     30.4796414
+    ]
+   },
+   "properties": {
+    "poi_id": "P0124",
+    "name": "华中农业大学南苑小区26栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区26栋",
+     "南26",
+     "南26栋",
+     "南二十六",
+     "南二十六栋",
+     "南苑26",
+     "南苑26栋",
+     "南苑二十六",
+     "南苑二十六栋",
+     "南苑小区26栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10793624675820573297"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3471846,
+     30.4798695
+    ]
+   },
+   "properties": {
+    "poi_id": "P0125",
+    "name": "华中农业大学南苑小区27栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区27栋",
+     "南27",
+     "南27栋",
+     "南二十七",
+     "南二十七栋",
+     "南苑27",
+     "南苑27栋",
+     "南苑二十七",
+     "南苑二十七栋",
+     "南苑小区27栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2112749435694234174"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.347555,
+     30.4799258
+    ]
+   },
+   "properties": {
+    "poi_id": "P0126",
+    "name": "华中农业大学南苑小区28栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区28栋",
+     "南28",
+     "南28栋",
+     "南二十八",
+     "南二十八栋",
+     "南苑28",
+     "南苑28栋",
+     "南苑二十八",
+     "南苑二十八栋",
+     "南苑小区28栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8718457262604667014"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3471297,
+     30.4800815
+    ]
+   },
+   "properties": {
+    "poi_id": "P0127",
+    "name": "华中农业大学南苑小区29栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区29栋",
+     "南29",
+     "南29栋",
+     "南二十九",
+     "南二十九栋",
+     "南苑29",
+     "南苑29栋",
+     "南苑二十九",
+     "南苑二十九栋",
+     "南苑小区29栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16498319733047363377"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3449163,
+     30.4765494
+    ]
+   },
+   "properties": {
+    "poi_id": "P0128",
+    "name": "华中农业大学南苑小区2栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区2栋",
+     "南2",
+     "南2栋",
+     "南二",
+     "南二栋",
+     "南苑2",
+     "南苑2栋",
+     "南苑二",
+     "南苑二栋",
+     "南苑小区2栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1333494738016879747"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3474921,
+     30.4801649
+    ]
+   },
+   "properties": {
+    "poi_id": "P0129",
+    "name": "华中农业大学南苑小区30栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区30栋",
+     "南30",
+     "南30栋",
+     "南三十",
+     "南三十栋",
+     "南苑30",
+     "南苑30栋",
+     "南苑三十",
+     "南苑三十栋",
+     "南苑小区30栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5305221629952533931"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3470687,
+     30.4803575
+    ]
+   },
+   "properties": {
+    "poi_id": "P0130",
+    "name": "华中农业大学南苑小区31栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区31栋",
+     "南31",
+     "南31栋",
+     "南三十一",
+     "南三十一栋",
+     "南苑31",
+     "南苑31栋",
+     "南苑三十一",
+     "南苑三十一栋",
+     "南苑小区31栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10405786101157013012"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3474482,
+     30.4803849
+    ]
+   },
+   "properties": {
+    "poi_id": "P0131",
+    "name": "华中农业大学南苑小区32栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区32栋",
+     "南32",
+     "南32栋",
+     "南三十二",
+     "南三十二栋",
+     "南苑32",
+     "南苑32栋",
+     "南苑三十二",
+     "南苑三十二栋",
+     "南苑小区32栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8117459789461256694"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3453497,
+     30.4761368
+    ]
+   },
+   "properties": {
+    "poi_id": "P0132",
+    "name": "华中农业大学南苑小区3栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区3栋",
+     "南3",
+     "南3栋",
+     "南三",
+     "南三栋",
+     "南苑3",
+     "南苑3栋",
+     "南苑三",
+     "南苑三栋",
+     "南苑小区3栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:13358164713977943407"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.345782,
+     30.476137
+    ]
+   },
+   "properties": {
+    "poi_id": "P0133",
+    "name": "华中农业大学南苑小区4栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区4栋",
+     "南4",
+     "南4栋",
+     "南四",
+     "南四栋",
+     "南苑4",
+     "南苑4栋",
+     "南苑四",
+     "南苑四栋",
+     "南苑小区4栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8027511792064440077"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3453516,
+     30.4766016
+    ]
+   },
+   "properties": {
+    "poi_id": "P0134",
+    "name": "华中农业大学南苑小区6栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区6栋",
+     "南6",
+     "南6栋",
+     "南六",
+     "南六栋",
+     "南苑6",
+     "南苑6栋",
+     "南苑六",
+     "南苑六栋",
+     "南苑小区6栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:565696374504470749"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3458988,
+     30.4765927
+    ]
+   },
+   "properties": {
+    "poi_id": "P0135",
+    "name": "华中农业大学南苑小区7栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区7栋",
+     "南7",
+     "南7栋",
+     "南七",
+     "南七栋",
+     "南苑7",
+     "南苑7栋",
+     "南苑七",
+     "南苑七栋",
+     "南苑小区7栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:14229956445161895716"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3453875,
+     30.4771164
+    ]
+   },
+   "properties": {
+    "poi_id": "P0136",
+    "name": "华中农业大学南苑小区8栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学南苑小区8栋",
+     "南8",
+     "南8栋",
+     "南八",
+     "南八栋",
+     "南苑8",
+     "南苑8栋",
+     "南苑八",
+     "南苑八栋",
+     "南苑小区8栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8850755230938262303"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3552623,
+     30.4784451
+    ]
+   },
+   "properties": {
+    "poi_id": "P0137",
+    "name": "华中农业大学博园-12栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学博园-12栋",
+     "博12",
+     "博12栋",
+     "博十二",
+     "博十二栋",
+     "博园-12栋",
+     "博园12",
+     "博园12栋",
+     "博园十二",
+     "博园十二栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:12080689432822144369"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3551653,
+     30.479586
+    ]
+   },
+   "properties": {
+    "poi_id": "P0138",
+    "name": "华中农业大学博园10栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学博园10栋",
+     "博10",
+     "博10栋",
+     "博十",
+     "博十栋",
+     "博园10",
+     "博园10栋",
+     "博园十",
+     "博园十栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17238381411890287483"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3552143,
+     30.4789041
+    ]
+   },
+   "properties": {
+    "poi_id": "P0139",
+    "name": "华中农业大学博园11栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学博园11栋",
+     "博11",
+     "博11栋",
+     "博十一",
+     "博十一栋",
+     "博园11",
+     "博园11栋",
+     "博园十一",
+     "博园十一栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17568269256771538926"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3552364,
+     30.4767316
+    ]
+   },
+   "properties": {
+    "poi_id": "P0140",
+    "name": "华中农业大学博园13栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学博园13栋",
+     "博13",
+     "博13栋",
+     "博十三",
+     "博十三栋",
+     "博园13",
+     "博园13栋",
+     "博园十三",
+     "博园十三栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:9766817489647355579"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3552255,
+     30.4764257
+    ]
+   },
+   "properties": {
+    "poi_id": "P0141",
+    "name": "华中农业大学博园14栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学博园14栋",
+     "博14",
+     "博14栋",
+     "博十四",
+     "博十四栋",
+     "博园14",
+     "博园14栋",
+     "博园十四",
+     "博园十四栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10872586315825928493"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3552155,
+     30.4762018
+    ]
+   },
+   "properties": {
+    "poi_id": "P0142",
+    "name": "华中农业大学博园15栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学博园15栋",
+     "博15",
+     "博15栋",
+     "博十五",
+     "博十五栋",
+     "博园15",
+     "博园15栋",
+     "博园十五",
+     "博园十五栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16123322969567311082"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3551644,
+     30.4781684
+    ]
+   },
+   "properties": {
+    "poi_id": "P0143",
+    "name": "华中农业大学博园16栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学博园16栋",
+     "博16",
+     "博16栋",
+     "博十六",
+     "博十六栋",
+     "博园16",
+     "博园16栋",
+     "博园十六",
+     "博园十六栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:12413756206631001217"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3577409,
+     30.4793329
+    ]
+   },
+   "properties": {
+    "poi_id": "P0144",
+    "name": "华中农业大学博园1栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学博园1栋",
+     "博1",
+     "博1栋",
+     "博一",
+     "博一栋",
+     "博园1",
+     "博园1栋",
+     "博园一",
+     "博园一栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15117622958814287233"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.357681,
+     30.4796509
+    ]
+   },
+   "properties": {
+    "poi_id": "P0145",
+    "name": "华中农业大学博园2栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学博园2栋",
+     "博2",
+     "博2栋",
+     "博二",
+     "博二栋",
+     "博园2",
+     "博园2栋",
+     "博园二",
+     "博园二栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:6073829967989454766"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3572765,
+     30.4799105
+    ]
+   },
+   "properties": {
+    "poi_id": "P0146",
+    "name": "华中农业大学博园3栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学博园3栋",
+     "博3",
+     "博3栋",
+     "博三",
+     "博三栋",
+     "博园3",
+     "博园3栋",
+     "博园三",
+     "博园三栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11797285015834103244"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3570688,
+     30.479341
+    ]
+   },
+   "properties": {
+    "poi_id": "P0147",
+    "name": "华中农业大学博园4栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学博园4栋",
+     "博4",
+     "博4栋",
+     "博四",
+     "博四栋",
+     "博园4",
+     "博园4栋",
+     "博园四",
+     "博园四栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17268793830457420201"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.356977,
+     30.4789662
+    ]
+   },
+   "properties": {
+    "poi_id": "P0148",
+    "name": "华中农业大学博园5栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学博园5栋",
+     "博5",
+     "博5栋",
+     "博五",
+     "博五栋",
+     "博园5",
+     "博园5栋",
+     "博园五",
+     "博园五栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17832402241524424596"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3560771,
+     30.4788567
+    ]
+   },
+   "properties": {
+    "poi_id": "P0149",
+    "name": "华中农业大学博园6栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学博园6栋",
+     "博6",
+     "博6栋",
+     "博六",
+     "博六栋",
+     "博园6",
+     "博园6栋",
+     "博园六",
+     "博园六栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:18232721939804732566"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3560342,
+     30.4791837
+    ]
+   },
+   "properties": {
+    "poi_id": "P0150",
+    "name": "华中农业大学博园7栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学博园7栋",
+     "博7",
+     "博7栋",
+     "博七",
+     "博七栋",
+     "博园7",
+     "博园7栋",
+     "博园七",
+     "博园七栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1684358412778655682"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3559562,
+     30.4795777
+    ]
+   },
+   "properties": {
+    "poi_id": "P0151",
+    "name": "华中农业大学博园8栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学博园8栋",
+     "博8",
+     "博8栋",
+     "博八",
+     "博八栋",
+     "博园8",
+     "博园8栋",
+     "博园八",
+     "博园八栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10744650114096143285"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3564116,
+     30.4799398
+    ]
+   },
+   "properties": {
+    "poi_id": "P0152",
+    "name": "华中农业大学博园9栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学博园9栋",
+     "博9",
+     "博9栋",
+     "博九",
+     "博九栋",
+     "博园9",
+     "博园9栋",
+     "博园九",
+     "博园九栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15717926045083850215"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3571407,
+     30.4793479
+    ]
+   },
+   "properties": {
+    "poi_id": "P0153",
+    "name": "华中农业大学博园学生公寓区",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学博园学生公寓区",
+     "博园学生公寓区"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8320065280778760462"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3497949,
+     30.4781164
+    ]
+   },
+   "properties": {
+    "poi_id": "P0154",
+    "name": "华中农业大学宝积苑10栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑10栋",
+     "宝10",
+     "宝10栋",
+     "宝十",
+     "宝十栋",
+     "宝积苑10",
+     "宝积苑10栋",
+     "宝积苑十",
+     "宝积苑十栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17991616826365778776"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3484598,
+     30.4787645
+    ]
+   },
+   "properties": {
+    "poi_id": "P0155",
+    "name": "华中农业大学宝积苑12栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑12栋",
+     "宝12",
+     "宝12栋",
+     "宝十二",
+     "宝十二栋",
+     "宝积苑12",
+     "宝积苑12栋",
+     "宝积苑十二",
+     "宝积苑十二栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8987070379179399804"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3484668,
+     30.4788855
+    ]
+   },
+   "properties": {
+    "poi_id": "P0156",
+    "name": "华中农业大学宝积苑13栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑13栋",
+     "宝13",
+     "宝13栋",
+     "宝十三",
+     "宝十三栋",
+     "宝积苑13",
+     "宝积苑13栋",
+     "宝积苑十三",
+     "宝积苑十三栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5586343408406943240"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3488762,
+     30.4785219
+    ]
+   },
+   "properties": {
+    "poi_id": "P0157",
+    "name": "华中农业大学宝积苑14栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑14栋",
+     "宝14",
+     "宝14栋",
+     "宝十四",
+     "宝十四栋",
+     "宝积苑14",
+     "宝积苑14栋",
+     "宝积苑十四",
+     "宝积苑十四栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:9096119083071510006"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3489181,
+     30.4787088
+    ]
+   },
+   "properties": {
+    "poi_id": "P0158",
+    "name": "华中农业大学宝积苑15栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑15栋",
+     "宝15",
+     "宝15栋",
+     "宝十五",
+     "宝十五栋",
+     "宝积苑15",
+     "宝积苑15栋",
+     "宝积苑十五",
+     "宝积苑十五栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:4140188844064731813"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3488872,
+     30.4789127
+    ]
+   },
+   "properties": {
+    "poi_id": "P0159",
+    "name": "华中农业大学宝积苑16栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑16栋",
+     "宝16",
+     "宝16栋",
+     "宝十六",
+     "宝十六栋",
+     "宝积苑16",
+     "宝积苑16栋",
+     "宝积苑十六",
+     "宝积苑十六栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:62864704361365728"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3492337,
+     30.4784963
+    ]
+   },
+   "properties": {
+    "poi_id": "P0160",
+    "name": "华中农业大学宝积苑17栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑17栋",
+     "宝17",
+     "宝17栋",
+     "宝十七",
+     "宝十七栋",
+     "宝积苑17",
+     "宝积苑17栋",
+     "宝积苑十七",
+     "宝积苑十七栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:9711904598888982786"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3492237,
+     30.4787072
+    ]
+   },
+   "properties": {
+    "poi_id": "P0161",
+    "name": "华中农业大学宝积苑18栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑18栋",
+     "宝18",
+     "宝18栋",
+     "宝十八",
+     "宝十八栋",
+     "宝积苑18",
+     "宝积苑18栋",
+     "宝积苑十八",
+     "宝积苑十八栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17282396183167634089"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.34967,
+     30.4785025
+    ]
+   },
+   "properties": {
+    "poi_id": "P0162",
+    "name": "华中农业大学宝积苑19栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑19栋",
+     "宝19",
+     "宝19栋",
+     "宝十九",
+     "宝十九栋",
+     "宝积苑19",
+     "宝积苑19栋",
+     "宝积苑十九",
+     "宝积苑十九栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15115742770216971844"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3493557,
+     30.4763386
+    ]
+   },
+   "properties": {
+    "poi_id": "P0163",
+    "name": "华中农业大学宝积苑1栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑1栋",
+     "宝1",
+     "宝1栋",
+     "宝一",
+     "宝一栋",
+     "宝积苑1",
+     "宝积苑1栋",
+     "宝积苑一",
+     "宝积苑一栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15734501403131149922"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.349686,
+     30.4787094
+    ]
+   },
+   "properties": {
+    "poi_id": "P0164",
+    "name": "华中农业大学宝积苑20栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑20栋",
+     "宝20",
+     "宝20栋",
+     "宝二十",
+     "宝二十栋",
+     "宝积苑20",
+     "宝积苑20栋",
+     "宝积苑二十",
+     "宝积苑二十栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15004022665876046278"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3500205,
+     30.4785129
+    ]
+   },
+   "properties": {
+    "poi_id": "P0165",
+    "name": "华中农业大学宝积苑21栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑21栋",
+     "宝21",
+     "宝21栋",
+     "宝二十一",
+     "宝二十一栋",
+     "宝积苑21",
+     "宝积苑21栋",
+     "宝积苑二十一",
+     "宝积苑二十一栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11874695472029546916"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3500255,
+     30.4787498
+    ]
+   },
+   "properties": {
+    "poi_id": "P0166",
+    "name": "华中农业大学宝积苑22栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑22栋",
+     "宝22",
+     "宝22栋",
+     "宝二十二",
+     "宝二十二栋",
+     "宝积苑22",
+     "宝积苑22栋",
+     "宝积苑二十二",
+     "宝积苑二十二栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1854915533745478386"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3498467,
+     30.4794409
+    ]
+   },
+   "properties": {
+    "poi_id": "P0167",
+    "name": "华中农业大学宝积苑23栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑23栋",
+     "宝23",
+     "宝23栋",
+     "宝二十三",
+     "宝二十三栋",
+     "宝积苑23",
+     "宝积苑23栋",
+     "宝积苑二十三",
+     "宝积苑二十三栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8684511907732505943"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3494635,
+     30.4766134
+    ]
+   },
+   "properties": {
+    "poi_id": "P0168",
+    "name": "华中农业大学宝积苑2栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑2栋",
+     "宝2",
+     "宝2栋",
+     "宝二",
+     "宝二栋",
+     "宝积苑2",
+     "宝积苑2栋",
+     "宝积苑二",
+     "宝积苑二栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10508741106543162867"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3494655,
+     30.4769113
+    ]
+   },
+   "properties": {
+    "poi_id": "P0169",
+    "name": "华中农业大学宝积苑3栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑3栋",
+     "宝3",
+     "宝3栋",
+     "宝三",
+     "宝三栋",
+     "宝积苑3",
+     "宝积苑3栋",
+     "宝积苑三",
+     "宝积苑三栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:13791501117940330437"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3494884,
+     30.4772062
+    ]
+   },
+   "properties": {
+    "poi_id": "P0170",
+    "name": "华中农业大学宝积苑4栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑4栋",
+     "宝4",
+     "宝4栋",
+     "宝四",
+     "宝四栋",
+     "宝积苑4",
+     "宝积苑4栋",
+     "宝积苑四",
+     "宝积苑四栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16175055502661187921"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3494454,
+     30.4777031
+    ]
+   },
+   "properties": {
+    "poi_id": "P0171",
+    "name": "华中农业大学宝积苑5栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑5栋",
+     "宝5",
+     "宝5栋",
+     "宝五",
+     "宝五栋",
+     "宝积苑5",
+     "宝积苑5栋",
+     "宝积苑五",
+     "宝积苑五栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2831416533809338968"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3498429,
+     30.4776924
+    ]
+   },
+   "properties": {
+    "poi_id": "P0172",
+    "name": "华中农业大学宝积苑6栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑6栋",
+     "宝6",
+     "宝6栋",
+     "宝六",
+     "宝六栋",
+     "宝积苑6",
+     "宝积苑6栋",
+     "宝积苑六",
+     "宝积苑六栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1771653749147018529"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3494334,
+     30.4779161
+    ]
+   },
+   "properties": {
+    "poi_id": "P0173",
+    "name": "华中农业大学宝积苑7栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑7栋",
+     "宝7",
+     "宝7栋",
+     "宝七",
+     "宝七栋",
+     "宝积苑7",
+     "宝积苑7栋",
+     "宝积苑七",
+     "宝积苑七栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:182917202403895258"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3498139,
+     30.4779144
+    ]
+   },
+   "properties": {
+    "poi_id": "P0174",
+    "name": "华中农业大学宝积苑8栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑8栋",
+     "宝8",
+     "宝8栋",
+     "宝八",
+     "宝八栋",
+     "宝积苑8",
+     "宝积苑8栋",
+     "宝积苑八",
+     "宝积苑八栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10413773583092148951"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3493685,
+     30.4780861
+    ]
+   },
+   "properties": {
+    "poi_id": "P0175",
+    "name": "华中农业大学宝积苑9栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学宝积苑9栋",
+     "宝9",
+     "宝9栋",
+     "宝九",
+     "宝九栋",
+     "宝积苑9",
+     "宝积苑9栋",
+     "宝积苑九",
+     "宝积苑九栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:13264488302537772524"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3581139,
+     30.4738228
+    ]
+   },
+   "properties": {
+    "poi_id": "P0176",
+    "name": "华中农业大学荟园",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园",
+     "荟园"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:9859463709536783499"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3588947,
+     30.4763339
+    ]
+   },
+   "properties": {
+    "poi_id": "P0177",
+    "name": "华中农业大学荟园-21栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园-21栋",
+     "荟21",
+     "荟21栋",
+     "荟二十一",
+     "荟二十一栋",
+     "荟园-21栋",
+     "荟园21",
+     "荟园21栋",
+     "荟园二十一",
+     "荟园二十一栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10991546884085008329"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3589669,
+     30.4730527
+    ]
+   },
+   "properties": {
+    "poi_id": "P0178",
+    "name": "华中农业大学荟园-9栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园-9栋",
+     "荟9",
+     "荟9栋",
+     "荟九",
+     "荟九栋",
+     "荟园-9栋",
+     "荟园9",
+     "荟园9栋",
+     "荟园九",
+     "荟园九栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:14184989417304393785"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3584477,
+     30.4721248
+    ]
+   },
+   "properties": {
+    "poi_id": "P0179",
+    "name": "华中农业大学荟园10栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园10栋",
+     "荟10",
+     "荟10栋",
+     "荟十",
+     "荟十栋",
+     "荟园10",
+     "荟园10栋",
+     "荟园十",
+     "荟园十栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2188920169273921936"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.358233,
+     30.4714183
+    ]
+   },
+   "properties": {
+    "poi_id": "P0180",
+    "name": "华中农业大学荟园11栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园11栋",
+     "荟11",
+     "荟11栋",
+     "荟十一",
+     "荟十一栋",
+     "荟园11",
+     "荟园11栋",
+     "荟园十一",
+     "荟园十一栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1219799039042049845"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3571184,
+     30.471555
+    ]
+   },
+   "properties": {
+    "poi_id": "P0181",
+    "name": "华中农业大学荟园12栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园12栋",
+     "荟12",
+     "荟12栋",
+     "荟十二",
+     "荟十二栋",
+     "荟园12",
+     "荟园12栋",
+     "荟园十二",
+     "荟园十二栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:3784755346454136416"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3561756,
+     30.4718694
+    ]
+   },
+   "properties": {
+    "poi_id": "P0182",
+    "name": "华中农业大学荟园14栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园14栋",
+     "荟14",
+     "荟14栋",
+     "荟十四",
+     "荟十四栋",
+     "荟园14",
+     "荟园14栋",
+     "荟园十四",
+     "荟园十四栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5580871444768063611"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3562055,
+     30.4725602
+    ]
+   },
+   "properties": {
+    "poi_id": "P0183",
+    "name": "华中农业大学荟园15栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园15栋",
+     "荟15",
+     "荟15栋",
+     "荟十五",
+     "荟十五栋",
+     "荟园15",
+     "荟园15栋",
+     "荟园十五",
+     "荟园十五栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:563451888546711541"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3570953,
+     30.4731116
+    ]
+   },
+   "properties": {
+    "poi_id": "P0184",
+    "name": "华中农业大学荟园16栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园16栋",
+     "荟16",
+     "荟16栋",
+     "荟十六",
+     "荟十六栋",
+     "荟园16",
+     "荟园16栋",
+     "荟园十六",
+     "荟园十六栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:14580022056607878996"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3571452,
+     30.4735104
+    ]
+   },
+   "properties": {
+    "poi_id": "P0185",
+    "name": "华中农业大学荟园17栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园17栋",
+     "荟17",
+     "荟17栋",
+     "荟十七",
+     "荟十七栋",
+     "荟园17",
+     "荟园17栋",
+     "荟园十七",
+     "荟园十七栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:857339664259149610"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3572271,
+     30.4739832
+    ]
+   },
+   "properties": {
+    "poi_id": "P0186",
+    "name": "华中农业大学荟园18栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园18栋",
+     "荟18",
+     "荟18栋",
+     "荟十八",
+     "荟十八栋",
+     "荟园18",
+     "荟园18栋",
+     "荟园十八",
+     "荟园十八栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8718267606402364145"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3572051,
+     30.4744241
+    ]
+   },
+   "properties": {
+    "poi_id": "P0187",
+    "name": "华中农业大学荟园19栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园19栋",
+     "荟19",
+     "荟19栋",
+     "荟十九",
+     "荟十九栋",
+     "荟园19",
+     "荟园19栋",
+     "荟园十九",
+     "荟园十九栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5788268619074027986"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3580499,
+     30.4757404
+    ]
+   },
+   "properties": {
+    "poi_id": "P0188",
+    "name": "华中农业大学荟园1栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园1栋",
+     "荟1",
+     "荟1栋",
+     "荟一",
+     "荟一栋",
+     "荟园1",
+     "荟园1栋",
+     "荟园一",
+     "荟园一栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:18042127350638760409"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.357188,
+     30.474937
+    ]
+   },
+   "properties": {
+    "poi_id": "P0189",
+    "name": "华中农业大学荟园20栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园20栋",
+     "荟20",
+     "荟20栋",
+     "荟二十",
+     "荟二十栋",
+     "荟园20",
+     "荟园20栋",
+     "荟园二十",
+     "荟园二十栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15706118815710551753"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3587349,
+     30.4767191
+    ]
+   },
+   "properties": {
+    "poi_id": "P0190",
+    "name": "华中农业大学荟园21A栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园21A栋",
+     "荟园21A栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:3557526633497925741"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3590256,
+     30.4763487
+    ]
+   },
+   "properties": {
+    "poi_id": "P0191",
+    "name": "华中农业大学荟园21栋A",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园21栋A",
+     "荟21A",
+     "荟21栋A",
+     "荟二十一A",
+     "荟二十一栋A",
+     "荟园21A",
+     "荟园21栋A",
+     "荟园二十一A",
+     "荟园二十一栋A"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:341276130913761899"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3581288,
+     30.4748475
+    ]
+   },
+   "properties": {
+    "poi_id": "P0192",
+    "name": "华中农业大学荟园3栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园3栋",
+     "荟3",
+     "荟3栋",
+     "荟三",
+     "荟三栋",
+     "荟园3",
+     "荟园3栋",
+     "荟园三",
+     "荟园三栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17883990156416022533"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3591715,
+     30.4757167
+    ]
+   },
+   "properties": {
+    "poi_id": "P0193",
+    "name": "华中农业大学荟园4栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园4栋",
+     "荟4",
+     "荟4栋",
+     "荟四",
+     "荟四栋",
+     "荟园4",
+     "荟园4栋",
+     "荟园四",
+     "荟园四栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:9031379011880738356"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3591196,
+     30.4742232
+    ]
+   },
+   "properties": {
+    "poi_id": "P0194",
+    "name": "华中农业大学荟园6栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园6栋",
+     "荟6",
+     "荟6栋",
+     "荟六",
+     "荟六栋",
+     "荟园6",
+     "荟园6栋",
+     "荟园六",
+     "荟园六栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:360338486945907346"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3591556,
+     30.4737292
+    ]
+   },
+   "properties": {
+    "poi_id": "P0195",
+    "name": "华中农业大学荟园7栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园7栋",
+     "荟7",
+     "荟7栋",
+     "荟七",
+     "荟七栋",
+     "荟园7",
+     "荟园7栋",
+     "荟园七",
+     "荟园七栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:13219535721424603289"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3583716,
+     30.4739284
+    ]
+   },
+   "properties": {
+    "poi_id": "P0196",
+    "name": "华中农业大学荟园8栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学荟园8栋",
+     "荟8",
+     "荟8栋",
+     "荟八",
+     "荟八栋",
+     "荟园8",
+     "荟园8栋",
+     "荟园八",
+     "荟园八栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5286098929243877032"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3418909,
+     30.4776836
+    ]
+   },
+   "properties": {
+    "poi_id": "P0197",
+    "name": "华中农业大学西苑小区12栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区12栋",
+     "西12",
+     "西12栋",
+     "西十二",
+     "西十二栋",
+     "西苑12",
+     "西苑12栋",
+     "西苑十二",
+     "西苑十二栋",
+     "西苑小区12栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7511861763640902073"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3403044,
+     30.4775386
+    ]
+   },
+   "properties": {
+    "poi_id": "P0198",
+    "name": "华中农业大学西苑小区23栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区23栋",
+     "西23",
+     "西23栋",
+     "西二十三",
+     "西二十三栋",
+     "西苑23",
+     "西苑23栋",
+     "西苑二十三",
+     "西苑二十三栋",
+     "西苑小区23栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11609406192829930130"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3398531,
+     30.4772345
+    ]
+   },
+   "properties": {
+    "poi_id": "P0199",
+    "name": "华中农业大学西苑小区27栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区27栋",
+     "西27",
+     "西27栋",
+     "西二十七",
+     "西二十七栋",
+     "西苑27",
+     "西苑27栋",
+     "西苑二十七",
+     "西苑二十七栋",
+     "西苑小区27栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16542883974834628298"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3402943,
+     30.4785823
+    ]
+   },
+   "properties": {
+    "poi_id": "P0200",
+    "name": "华中农业大学西苑小区29栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区29栋",
+     "西29",
+     "西29栋",
+     "西二十九",
+     "西二十九栋",
+     "西苑29",
+     "西苑29栋",
+     "西苑二十九",
+     "西苑二十九栋",
+     "西苑小区29栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:9547613260943148277"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3394286,
+     30.4792798
+    ]
+   },
+   "properties": {
+    "poi_id": "P0201",
+    "name": "华中农业大学西苑小区37栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区37栋",
+     "西37",
+     "西37栋",
+     "西三十七",
+     "西三十七栋",
+     "西苑37",
+     "西苑37栋",
+     "西苑三十七",
+     "西苑三十七栋",
+     "西苑小区37栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7857139577269122135"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3382804,
+     30.4797808
+    ]
+   },
+   "properties": {
+    "poi_id": "P0202",
+    "name": "华中农业大学西苑小区38栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区38栋",
+     "西38",
+     "西38栋",
+     "西三十八",
+     "西三十八栋",
+     "西苑38",
+     "西苑38栋",
+     "西苑三十八",
+     "西苑三十八栋",
+     "西苑小区38栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8686696952413007263"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3378602,
+     30.4788828
+    ]
+   },
+   "properties": {
+    "poi_id": "P0203",
+    "name": "华中农业大学西苑小区41栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区41栋",
+     "西41",
+     "西41栋",
+     "西四十一",
+     "西四十一栋",
+     "西苑41",
+     "西苑41栋",
+     "西苑四十一",
+     "西苑四十一栋",
+     "西苑小区41栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:731203115277196142"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3379081,
+     30.4791676
+    ]
+   },
+   "properties": {
+    "poi_id": "P0204",
+    "name": "华中农业大学西苑小区42栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区42栋",
+     "西42",
+     "西42栋",
+     "西四十二",
+     "西四十二栋",
+     "西苑42",
+     "西苑42栋",
+     "西苑四十二",
+     "西苑四十二栋",
+     "西苑小区42栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:3039874364568107533"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3370824,
+     30.4786243
+    ]
+   },
+   "properties": {
+    "poi_id": "P0205",
+    "name": "华中农业大学西苑小区44栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区44栋",
+     "西44",
+     "西44栋",
+     "西四十四",
+     "西四十四栋",
+     "西苑44",
+     "西苑44栋",
+     "西苑四十四",
+     "西苑四十四栋",
+     "西苑小区44栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16707848195043481828"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3371942,
+     30.4788881
+    ]
+   },
+   "properties": {
+    "poi_id": "P0206",
+    "name": "华中农业大学西苑小区45栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区45栋",
+     "西45",
+     "西45栋",
+     "西四十五",
+     "西四十五栋",
+     "西苑45",
+     "西苑45栋",
+     "西苑四十五",
+     "西苑四十五栋",
+     "西苑小区45栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2257263790216923446"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3371902,
+     30.479182
+    ]
+   },
+   "properties": {
+    "poi_id": "P0207",
+    "name": "华中农业大学西苑小区46栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区46栋",
+     "西46",
+     "西46栋",
+     "西四十六",
+     "西四十六栋",
+     "西苑46",
+     "西苑46栋",
+     "西苑四十六",
+     "西苑四十六栋",
+     "西苑小区46栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:12095147182677851106"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3371682,
+     30.4795299
+    ]
+   },
+   "properties": {
+    "poi_id": "P0208",
+    "name": "华中农业大学西苑小区47栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区47栋",
+     "西47",
+     "西47栋",
+     "西四十七",
+     "西四十七栋",
+     "西苑47",
+     "西苑47栋",
+     "西苑四十七",
+     "西苑四十七栋",
+     "西苑小区47栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:14850072556976082261"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3359671,
+     30.4799721
+    ]
+   },
+   "properties": {
+    "poi_id": "P0209",
+    "name": "华中农业大学西苑小区54栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区54栋",
+     "西54",
+     "西54栋",
+     "西五十四",
+     "西五十四栋",
+     "西苑54",
+     "西苑54栋",
+     "西苑五十四",
+     "西苑五十四栋",
+     "西苑小区54栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:9895753239670456194"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3357865,
+     30.4794246
+    ]
+   },
+   "properties": {
+    "poi_id": "P0210",
+    "name": "华中农业大学西苑小区55栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区55栋",
+     "西55",
+     "西55栋",
+     "西五十五",
+     "西五十五栋",
+     "西苑55",
+     "西苑55栋",
+     "西苑五十五",
+     "西苑五十五栋",
+     "西苑小区55栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11194708645161193124"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3362846,
+     30.4796786
+    ]
+   },
+   "properties": {
+    "poi_id": "P0211",
+    "name": "华中农业大学西苑小区56栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区56栋",
+     "西56",
+     "西56栋",
+     "西五十六",
+     "西五十六栋",
+     "西苑56",
+     "西苑56栋",
+     "西苑五十六",
+     "西苑五十六栋",
+     "西苑小区56栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:9692503894570513354"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3361599,
+     30.479087
+    ]
+   },
+   "properties": {
+    "poi_id": "P0212",
+    "name": "华中农业大学西苑小区57栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区57栋",
+     "西57",
+     "西57栋",
+     "西五十七",
+     "西五十七栋",
+     "西苑57",
+     "西苑57栋",
+     "西苑五十七",
+     "西苑五十七栋",
+     "西苑小区57栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1167713408581162473"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.336128,
+     30.4787911
+    ]
+   },
+   "properties": {
+    "poi_id": "P0213",
+    "name": "华中农业大学西苑小区59栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区59栋",
+     "西59",
+     "西59栋",
+     "西五十九",
+     "西五十九栋",
+     "西苑59",
+     "西苑59栋",
+     "西苑五十九",
+     "西苑五十九栋",
+     "西苑小区59栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5592221984976259499"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3354681,
+     30.4785224
+    ]
+   },
+   "properties": {
+    "poi_id": "P0214",
+    "name": "华中农业大学西苑小区60栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区60栋",
+     "西60",
+     "西60栋",
+     "西六十",
+     "西六十栋",
+     "西苑60",
+     "西苑60栋",
+     "西苑六十",
+     "西苑六十栋",
+     "西苑小区60栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1661221860544821330"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.336102,
+     30.4785202
+    ]
+   },
+   "properties": {
+    "poi_id": "P0215",
+    "name": "华中农业大学西苑小区61栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区61栋",
+     "西61",
+     "西61栋",
+     "西六十一",
+     "西六十一栋",
+     "西苑61",
+     "西苑61栋",
+     "西苑六十一",
+     "西苑六十一栋",
+     "西苑小区61栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:3956816212821821201"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.335489,
+     30.4782115
+    ]
+   },
+   "properties": {
+    "poi_id": "P0216",
+    "name": "华中农业大学西苑小区62栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区62栋",
+     "西62",
+     "西62栋",
+     "西六十二",
+     "西六十二栋",
+     "西苑62",
+     "西苑62栋",
+     "西苑六十二",
+     "西苑六十二栋",
+     "西苑小区62栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:9296886565387484300"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.33614,
+     30.4782042
+    ]
+   },
+   "properties": {
+    "poi_id": "P0217",
+    "name": "华中农业大学西苑小区63栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区63栋",
+     "西63",
+     "西63栋",
+     "西六十三",
+     "西六十三栋",
+     "西苑63",
+     "西苑63栋",
+     "西苑六十三",
+     "西苑六十三栋",
+     "西苑小区63栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:4909728685810501124"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3425119,
+     30.4781164
+    ]
+   },
+   "properties": {
+    "poi_id": "P0218",
+    "name": "华中农业大学西苑小区64栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区64栋",
+     "西64",
+     "西64栋",
+     "西六十四",
+     "西六十四栋",
+     "西苑64",
+     "西苑64栋",
+     "西苑六十四",
+     "西苑六十四栋",
+     "西苑小区64栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:9733301249997193424"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3430091,
+     30.4781305
+    ]
+   },
+   "properties": {
+    "poi_id": "P0219",
+    "name": "华中农业大学西苑小区65栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区65栋",
+     "西65",
+     "西65栋",
+     "西六十五",
+     "西六十五栋",
+     "西苑65",
+     "西苑65栋",
+     "西苑六十五",
+     "西苑六十五栋",
+     "西苑小区65栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17773197263435142871"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3430042,
+     30.4772567
+    ]
+   },
+   "properties": {
+    "poi_id": "P0220",
+    "name": "华中农业大学西苑小区69栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华中农业大学西苑小区69栋",
+     "西69",
+     "西69栋",
+     "西六十九",
+     "西六十九栋",
+     "西苑69",
+     "西苑69栋",
+     "西苑六十九",
+     "西苑六十九栋",
+     "西苑小区69栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10828347193557761989"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3484766,
+     30.4812608
+    ]
+   },
+   "properties": {
+    "poi_id": "P0221",
+    "name": "华农北苑小区",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "北苑小区",
+     "华农北苑小区"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:13620295322000783581"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3474731,
+     30.4801869
+    ]
+   },
+   "properties": {
+    "poi_id": "P0222",
+    "name": "华农南苑",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农南苑",
+     "南苑"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8873233254257402517"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3466225,
+     30.4792217
+    ]
+   },
+   "properties": {
+    "poi_id": "P0223",
+    "name": "华农南苑小区22栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农南苑小区22栋",
+     "南22",
+     "南22栋",
+     "南二十二",
+     "南二十二栋",
+     "南苑22",
+     "南苑22栋",
+     "南苑二十二",
+     "南苑二十二栋",
+     "南苑小区22栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2456659482348894890"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3453566,
+     30.4763827
+    ]
+   },
+   "properties": {
+    "poi_id": "P0224",
+    "name": "华农南苑小区5栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农南苑小区5栋",
+     "南5",
+     "南5栋",
+     "南五",
+     "南五栋",
+     "南苑5",
+     "南苑5栋",
+     "南苑五",
+     "南苑五栋",
+     "南苑小区5栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17423001922192174901"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3459077,
+     30.4771055
+    ]
+   },
+   "properties": {
+    "poi_id": "P0225",
+    "name": "华农南苑小区9栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农南苑小区9栋",
+     "南9",
+     "南9栋",
+     "南九",
+     "南九栋",
+     "南苑9",
+     "南苑9栋",
+     "南苑九",
+     "南苑九栋",
+     "南苑小区9栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:12504344937772750992"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3552902,
+     30.4784211
+    ]
+   },
+   "properties": {
+    "poi_id": "P0226",
+    "name": "华农学生公寓博园4栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农学生公寓博园4栋",
+     "学生公寓博园4栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8478059557422311977"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3492566,
+     30.4787651
+    ]
+   },
+   "properties": {
+    "poi_id": "P0227",
+    "name": "华农宝积苑",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农宝积苑",
+     "宝积苑"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:4979579294940800064"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3484448,
+     30.4785636
+    ]
+   },
+   "properties": {
+    "poi_id": "P0228",
+    "name": "华农宝积苑-11栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农宝积苑-11栋",
+     "宝11",
+     "宝11栋",
+     "宝十一",
+     "宝十一栋",
+     "宝积苑-11栋",
+     "宝积苑11",
+     "宝积苑11栋",
+     "宝积苑十一",
+     "宝积苑十一栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15839367700814158550"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3580469,
+     30.4757654
+    ]
+   },
+   "properties": {
+    "poi_id": "P0229",
+    "name": "华农荟园-21B栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农荟园-21B栋",
+     "荟园-21B栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:4444262718449801718"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.357992,
+     30.4752916
+    ]
+   },
+   "properties": {
+    "poi_id": "P0230",
+    "name": "华农荟园-2栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农荟园-2栋",
+     "荟2",
+     "荟2栋",
+     "荟二",
+     "荟二栋",
+     "荟园-2栋",
+     "荟园2",
+     "荟园2栋",
+     "荟园二",
+     "荟园二栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:6889564352520107270"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3395914,
+     30.4786526
+    ]
+   },
+   "properties": {
+    "poi_id": "P0231",
+    "name": "华农西苑",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑",
+     "西苑"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5249446878420453323"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.341823,
+     30.4779537
+    ]
+   },
+   "properties": {
+    "poi_id": "P0232",
+    "name": "华农西苑小区-11栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-11栋",
+     "西11",
+     "西11栋",
+     "西十一",
+     "西十一栋",
+     "西苑11",
+     "西苑11栋",
+     "西苑十一",
+     "西苑十一栋",
+     "西苑小区-11栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1524834476918509847"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3418101,
+     30.4771839
+    ]
+   },
+   "properties": {
+    "poi_id": "P0233",
+    "name": "华农西苑小区-14栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-14栋",
+     "西14",
+     "西14栋",
+     "西十四",
+     "西十四栋",
+     "西苑14",
+     "西苑14栋",
+     "西苑十四",
+     "西苑十四栋",
+     "西苑小区-14栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15770241001088066011"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3418979,
+     30.4769368
+    ]
+   },
+   "properties": {
+    "poi_id": "P0234",
+    "name": "华农西苑小区-15栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-15栋",
+     "西15",
+     "西15栋",
+     "西十五",
+     "西十五栋",
+     "西苑15",
+     "西苑15栋",
+     "西苑十五",
+     "西苑十五栋",
+     "西苑小区-15栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8277293764869572862"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3409463,
+     30.4784872
+    ]
+   },
+   "properties": {
+    "poi_id": "P0235",
+    "name": "华农西苑小区-16栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-16栋",
+     "西16",
+     "西16栋",
+     "西十六",
+     "西十六栋",
+     "西苑16",
+     "西苑16栋",
+     "西苑十六",
+     "西苑十六栋",
+     "西苑小区-16栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15241476526280373214"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3409373,
+     30.4782223
+    ]
+   },
+   "properties": {
+    "poi_id": "P0236",
+    "name": "华农西苑小区-17栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-17栋",
+     "西17",
+     "西17栋",
+     "西十七",
+     "西十七栋",
+     "西苑17",
+     "西苑17栋",
+     "西苑十七",
+     "西苑十七栋",
+     "西苑小区-17栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16694705947742827817"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3409384,
+     30.4779203
+    ]
+   },
+   "properties": {
+    "poi_id": "P0237",
+    "name": "华农西苑小区-18栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-18栋",
+     "西18",
+     "西18栋",
+     "西十八",
+     "西十八栋",
+     "西苑18",
+     "西苑18栋",
+     "西苑十八",
+     "西苑十八栋",
+     "西苑小区-18栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:3520119748293854535"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3409474,
+     30.4774025
+    ]
+   },
+   "properties": {
+    "poi_id": "P0238",
+    "name": "华农西苑小区-20栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-20栋",
+     "西20",
+     "西20栋",
+     "西二十",
+     "西二十栋",
+     "西苑20",
+     "西苑20栋",
+     "西苑二十",
+     "西苑二十栋",
+     "西苑小区-20栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1204805810298163660"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3398231,
+     30.4778814
+    ]
+   },
+   "properties": {
+    "poi_id": "P0239",
+    "name": "华农西苑小区-25栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-25栋",
+     "西25",
+     "西25栋",
+     "西二十五",
+     "西二十五栋",
+     "西苑25",
+     "西苑25栋",
+     "西苑二十五",
+     "西苑二十五栋",
+     "西苑小区-25栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11239487162524289660"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3398611,
+     30.4775294
+    ]
+   },
+   "properties": {
+    "poi_id": "P0240",
+    "name": "华农西苑小区-26栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-26栋",
+     "西26",
+     "西26栋",
+     "西二十六",
+     "西二十六栋",
+     "西苑26",
+     "西苑26栋",
+     "西苑二十六",
+     "西苑二十六栋",
+     "西苑小区-26栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5861774226994912160"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.340407,
+     30.4797918
+    ]
+   },
+   "properties": {
+    "poi_id": "P0241",
+    "name": "华农西苑小区-2栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-2栋",
+     "西2",
+     "西2栋",
+     "西二",
+     "西二栋",
+     "西苑2",
+     "西苑2栋",
+     "西苑二",
+     "西苑二栋",
+     "西苑小区-2栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15902228442233398077"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3401475,
+     30.4790035
+    ]
+   },
+   "properties": {
+    "poi_id": "P0242",
+    "name": "华农西苑小区-30栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-30栋",
+     "西30",
+     "西30栋",
+     "西三十",
+     "西三十栋",
+     "西苑30",
+     "西苑30栋",
+     "西苑三十",
+     "西苑三十栋",
+     "西苑小区-30栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:13175238258801713656"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.339226,
+     30.4781934
+    ]
+   },
+   "properties": {
+    "poi_id": "P0243",
+    "name": "华农西苑小区-32栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-32栋",
+     "西32",
+     "西32栋",
+     "西三十二",
+     "西三十二栋",
+     "西苑32",
+     "西苑32栋",
+     "西苑三十二",
+     "西苑三十二栋",
+     "西苑小区-32栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1619649400891603764"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3392281,
+     30.4778015
+    ]
+   },
+   "properties": {
+    "poi_id": "P0244",
+    "name": "华农西苑小区-33栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-33栋",
+     "西33",
+     "西33栋",
+     "西三十三",
+     "西三十三栋",
+     "西苑33",
+     "西苑33栋",
+     "西苑三十三",
+     "西苑三十三栋",
+     "西苑小区-33栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:14655144602182615302"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3391832,
+     30.4774117
+    ]
+   },
+   "properties": {
+    "poi_id": "P0245",
+    "name": "华农西苑小区-34栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-34栋",
+     "西34",
+     "西34栋",
+     "西三十四",
+     "西三十四栋",
+     "西苑34",
+     "西苑34栋",
+     "西苑三十四",
+     "西苑三十四栋",
+     "西苑小区-34栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:13390658399263669976"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3388426,
+     30.47866
+    ]
+   },
+   "properties": {
+    "poi_id": "P0246",
+    "name": "华农西苑小区-35栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-35栋",
+     "西35",
+     "西35栋",
+     "西三十五",
+     "西三十五栋",
+     "西苑35",
+     "西苑35栋",
+     "西苑三十五",
+     "西苑三十五栋",
+     "西苑小区-35栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8598796217517184116"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.339213,
+     30.4788393
+    ]
+   },
+   "properties": {
+    "poi_id": "P0247",
+    "name": "华农西苑小区-36栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-36栋",
+     "西36",
+     "西36栋",
+     "西三十六",
+     "西三十六栋",
+     "西苑36",
+     "西苑36栋",
+     "西苑三十六",
+     "西苑三十六栋",
+     "西苑小区-36栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:3162522142534995543"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3376804,
+     30.4800558
+    ]
+   },
+   "properties": {
+    "poi_id": "P0248",
+    "name": "华农西苑小区-39栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-39栋",
+     "西39",
+     "西39栋",
+     "西三十九",
+     "西三十九栋",
+     "西苑39",
+     "西苑39栋",
+     "西苑三十九",
+     "西苑三十九栋",
+     "西苑小区-39栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10853068600374018354"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3378531,
+     30.4794977
+    ]
+   },
+   "properties": {
+    "poi_id": "P0249",
+    "name": "华农西苑小区-40栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-40栋",
+     "西40",
+     "西40栋",
+     "西四十",
+     "西四十栋",
+     "西苑40",
+     "西苑40栋",
+     "西苑四十",
+     "西苑四十栋",
+     "西苑小区-40栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:13698879924085531261"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3378442,
+     30.4785739
+    ]
+   },
+   "properties": {
+    "poi_id": "P0250",
+    "name": "华农西苑小区-43栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-43栋",
+     "西43",
+     "西43栋",
+     "西四十三",
+     "西四十三栋",
+     "西苑43",
+     "西苑43栋",
+     "西苑四十三",
+     "西苑四十三栋",
+     "西苑小区-43栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17990637429431152162"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3408344,
+     30.4787563
+    ]
+   },
+   "properties": {
+    "poi_id": "P0251",
+    "name": "华农西苑小区-49栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-49栋",
+     "西49",
+     "西49栋",
+     "西四十九",
+     "西四十九栋",
+     "西苑49",
+     "西苑49栋",
+     "西苑四十九",
+     "西苑四十九栋",
+     "西苑小区-49栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1858357081644205679"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3418459,
+     30.4785015
+    ]
+   },
+   "properties": {
+    "poi_id": "P0252",
+    "name": "华农西苑小区-50栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-50栋",
+     "西50",
+     "西50栋",
+     "西五十",
+     "西五十栋",
+     "西苑50",
+     "西苑50栋",
+     "西苑五十",
+     "西苑五十栋",
+     "西苑小区-50栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:14955386995880987146"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3410553,
+     30.4768614
+    ]
+   },
+   "properties": {
+    "poi_id": "P0253",
+    "name": "华农西苑小区-51栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-51栋",
+     "西51",
+     "西51栋",
+     "西五十一",
+     "西五十一栋",
+     "西苑51",
+     "西苑51栋",
+     "西苑五十一",
+     "西苑五十一栋",
+     "西苑小区-51栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:13275052100408443383"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3370743,
+     30.4803979
+    ]
+   },
+   "properties": {
+    "poi_id": "P0254",
+    "name": "华农西苑小区-52栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-52栋",
+     "西52",
+     "西52栋",
+     "西五十二",
+     "西五十二栋",
+     "西苑52",
+     "西苑52栋",
+     "西苑五十二",
+     "西苑五十二栋",
+     "西苑小区-52栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:9727232016134355791"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3425009,
+     30.4777255
+    ]
+   },
+   "properties": {
+    "poi_id": "P0255",
+    "name": "华农西苑小区-66栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-66栋",
+     "西66",
+     "西66栋",
+     "西六十六",
+     "西六十六栋",
+     "西苑66",
+     "西苑66栋",
+     "西苑六十六",
+     "西苑六十六栋",
+     "西苑小区-66栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5470168291367019693"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3430141,
+     30.4776916
+    ]
+   },
+   "properties": {
+    "poi_id": "P0256",
+    "name": "华农西苑小区-67栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-67栋",
+     "西67",
+     "西67栋",
+     "西六十七",
+     "西六十七栋",
+     "西苑67",
+     "西苑67栋",
+     "西苑六十七",
+     "西苑六十七栋",
+     "西苑小区-67栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:4995449006104137774"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.342484,
+     30.4772247
+    ]
+   },
+   "properties": {
+    "poi_id": "P0257",
+    "name": "华农西苑小区-68栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-68栋",
+     "西68",
+     "西68栋",
+     "西六十八",
+     "西六十八栋",
+     "西苑68",
+     "西苑68栋",
+     "西苑六十八",
+     "西苑六十八栋",
+     "西苑小区-68栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:4417048411366083447"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.342507,
+     30.4767948
+    ]
+   },
+   "properties": {
+    "poi_id": "P0258",
+    "name": "华农西苑小区-70栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-70栋",
+     "西70",
+     "西70栋",
+     "西七十",
+     "西七十栋",
+     "西苑70",
+     "西苑70栋",
+     "西苑七十",
+     "西苑七十栋",
+     "西苑小区-70栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:14016275914582494564"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3430352,
+     30.4768368
+    ]
+   },
+   "properties": {
+    "poi_id": "P0259",
+    "name": "华农西苑小区-71栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区-71栋",
+     "西71",
+     "西71栋",
+     "西七十一",
+     "西七十一栋",
+     "西苑71",
+     "西苑71栋",
+     "西苑七十一",
+     "西苑七十一栋",
+     "西苑小区-71栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:687788886401484120"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3405847,
+     30.4800784
+    ]
+   },
+   "properties": {
+    "poi_id": "P0260",
+    "name": "华农西苑小区北区",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "华农西苑小区北区",
+     "西苑小区北区"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5663819996802431699"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3602045,
+     30.4719891
+    ]
+   },
+   "properties": {
+    "poi_id": "P0261",
+    "name": "博园3栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "博3",
+     "博3栋",
+     "博三",
+     "博三栋",
+     "博园3",
+     "博园3栋",
+     "博园三",
+     "博园三栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11733336642866969916"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3570864,
+     30.4723718
+    ]
+   },
+   "properties": {
+    "poi_id": "P0262",
+    "name": "荟园-13栋",
+    "category": "dorm",
+    "category_cn": "宿舍",
+    "aliases": [
+     "荟13",
+     "荟13栋",
+     "荟十三",
+     "荟十三栋",
+     "荟园-13栋",
+     "荟园13",
+     "荟园13栋",
+     "荟园十三",
+     "荟园十三栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:4369732488531146049"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3572868,
+     30.4755756
+    ]
+   },
+   "properties": {
+    "poi_id": "P0263",
+    "name": "德邦快递",
+    "category": "express",
+    "category_cn": "快递驿站",
+    "aliases": [
+     "德邦快递"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5006789666187373265"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3571341,
+     30.4753759
+    ]
+   },
+   "properties": {
+    "poi_id": "P0264",
+    "name": "菜鸟驿站(华中农业大学学生事务大楼店)",
+    "category": "express",
+    "category_cn": "快递驿站",
+    "aliases": [
+     "菜鸟驿站(华中农业大学学生事务大楼店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10781000093171995316"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3382745,
+     30.478934
+    ]
+   },
+   "properties": {
+    "poi_id": "P0265",
+    "name": "菜鸟驿站(华中农业大学西苑店)",
+    "category": "express",
+    "category_cn": "快递驿站",
+    "aliases": [
+     "菜鸟驿站(华中农业大学西苑店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10202102353222691093"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3446755,
+     30.4780685
+    ]
+   },
+   "properties": {
+    "poi_id": "P0266",
+    "name": "菜鸟驿站(华中农业大学西苑店)",
+    "category": "express",
+    "category_cn": "快递驿站",
+    "aliases": [
+     "菜鸟驿站(华中农业大学西苑店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:6562935491650965964"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3573837,
+     30.4753386
+    ]
+   },
+   "properties": {
+    "poi_id": "P0267",
+    "name": "顺丰速运(华农西苑校园服务中心)",
+    "category": "express",
+    "category_cn": "快递驿站",
+    "aliases": [
+     "顺丰速运(华农西苑校园服务中心)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:4326537836500517617"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3422313,
+     30.4784628
+    ]
+   },
+   "properties": {
+    "poi_id": "P0268",
+    "name": "顺丰速运(华农西苑校园服务中心)",
+    "category": "express",
+    "category_cn": "快递驿站",
+    "aliases": [
+     "顺丰速运(华农西苑校园服务中心)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8795370878185565508"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3515398,
+     30.4739205
+    ]
+   },
+   "properties": {
+    "poi_id": "P0269",
+    "name": "华农图书馆",
+    "category": "library",
+    "category_cn": "图书馆",
+    "aliases": [
+     "华农图书馆",
+     "图书馆",
+     "校图书馆",
+     "老图书馆"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16917707923932255130"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3482783,
+     30.4763585
+    ]
+   },
+   "properties": {
+    "poi_id": "P0270",
+    "name": "华中农业大学医院",
+    "category": "medical",
+    "category_cn": "医疗",
+    "aliases": [
+     "医院",
+     "华中农业大学医院"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:18296082882084354811"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3483302,
+     30.4763014
+    ]
+   },
+   "properties": {
+    "poi_id": "P0271",
+    "name": "华中农业大学社区卫生服务中心",
+    "category": "medical",
+    "category_cn": "医疗",
+    "aliases": [
+     "华中农业大学社区卫生服务中心",
+     "社区卫生服务中心"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5520166625164141780"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3447834,
+     30.4781003
+    ]
+   },
+   "properties": {
+    "poi_id": "P0272",
+    "name": "丝域造型",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "丝域造型"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10595532466932847011"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3440734,
+     30.4786644
+    ]
+   },
+   "properties": {
+    "poi_id": "P0273",
+    "name": "佳快印",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "佳快印"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:963625722966746723"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3443011,
+     30.4779392
+    ]
+   },
+   "properties": {
+    "poi_id": "P0274",
+    "name": "兴华晟图文广告",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "兴华晟图文广告"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15187434590752352302"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3571836,
+     30.4797457
+    ]
+   },
+   "properties": {
+    "poi_id": "P0275",
+    "name": "华中农业大学-博园",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "-博园",
+     "华中农业大学-博园"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7167159818446083327"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3515458,
+     30.4737506
+    ]
+   },
+   "properties": {
+    "poi_id": "P0276",
+    "name": "华中农业大学-校史陈列馆",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "-校史陈列馆",
+     "华中农业大学-校史陈列馆"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:14243071090227075545"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3440845,
+     30.4774627
+    ]
+   },
+   "properties": {
+    "poi_id": "P0277",
+    "name": "华中农业大学美食城",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "华中农业大学美食城",
+     "美食城"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15060220792335054293"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3403701,
+     30.4800408
+    ]
+   },
+   "properties": {
+    "poi_id": "P0278",
+    "name": "华农西苑小区北区-3栋",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "华农西苑小区北区-3栋",
+     "西苑小区北区-3栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:13756815276571450561"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3403271,
+     30.4802738
+    ]
+   },
+   "properties": {
+    "poi_id": "P0279",
+    "name": "华农西苑小区北区-4栋",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "华农西苑小区北区-4栋",
+     "西苑小区北区-4栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:18233757778052289926"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.341008,
+     30.4802806
+    ]
+   },
+   "properties": {
+    "poi_id": "P0280",
+    "name": "华农西苑小区北区-5栋",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "华农西苑小区北区-5栋",
+     "西苑小区北区-5栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8495194128352765529"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.345077,
+     30.4776379
+    ]
+   },
+   "properties": {
+    "poi_id": "P0281",
+    "name": "发源地(华农店)",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "发源地(华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11889425720482942203"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3445419,
+     30.4765571
+    ]
+   },
+   "properties": {
+    "poi_id": "P0282",
+    "name": "名剪造型(梧桐路步行街)",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "名剪造型(梧桐路步行街)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2694221538046240535"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3454874,
+     30.4770723
+    ]
+   },
+   "properties": {
+    "poi_id": "P0283",
+    "name": "学苑客栈(武汉华中农业大学店)",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "学苑客栈(武汉华中农业大学店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5534687282698621354"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3442782,
+     30.4771234
+    ]
+   },
+   "properties": {
+    "poi_id": "P0284",
+    "name": "小雨点剪吧",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "小雨点剪吧"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2682523472071641202"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3580152,
+     30.4723354
+    ]
+   },
+   "properties": {
+    "poi_id": "P0285",
+    "name": "幸运咖(华农店)",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "幸运咖(华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:13839154655518774501"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3446147,
+     30.4768669
+    ]
+   },
+   "properties": {
+    "poi_id": "P0286",
+    "name": "木本造型(华农直营店)",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "木本造型(华农直营店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:12232271965145217980"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3356438,
+     30.4778123
+    ]
+   },
+   "properties": {
+    "poi_id": "P0287",
+    "name": "武汉维物起源生物科技有限公司",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "武汉维物起源生物科技有限公司"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8024943486833252376"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3440894,
+     30.4779406
+    ]
+   },
+   "properties": {
+    "poi_id": "P0288",
+    "name": "简剪造型理发店(华中农业大学店)",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "简剪造型理发店(华中农业大学店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17161036189052444433"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3445369,
+     30.4765371
+    ]
+   },
+   "properties": {
+    "poi_id": "P0289",
+    "name": "美达印务(梧桐路步行街)",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "美达印务(梧桐路步行街)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1331568783062992391"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3450221,
+     30.477438
+    ]
+   },
+   "properties": {
+    "poi_id": "P0290",
+    "name": "群星造型(华农店)",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "群星造型(华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:12045267839985318714"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3449381,
+     30.4785549
+    ]
+   },
+   "properties": {
+    "poi_id": "P0291",
+    "name": "翼阳广告图文",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "翼阳广告图文"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:414188049186701555"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3445048,
+     30.4781188
+    ]
+   },
+   "properties": {
+    "poi_id": "P0292",
+    "name": "西苑快捷酒店(华中农业大学店)",
+    "category": "other",
+    "category_cn": "其他",
+    "aliases": [
+     "西苑快捷酒店(华中农业大学店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:18172769282785953219"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3572589,
+     30.4749779
+    ]
+   },
+   "properties": {
+    "poi_id": "P0293",
+    "name": "中国电信(华中农业大学荟园店)",
+    "category": "service",
+    "category_cn": "行政服务",
+    "aliases": [
+     "中国电信(华中农业大学荟园店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:371798748478751470"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.358751,
+     30.4757483
+    ]
+   },
+   "properties": {
+    "poi_id": "P0294",
+    "name": "中国移动(华中农业大学勤工俭学厅)",
+    "category": "service",
+    "category_cn": "行政服务",
+    "aliases": [
+     "中国移动(华中农业大学勤工俭学厅)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10783744270338351383"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3449522,
+     30.4773851
+    ]
+   },
+   "properties": {
+    "poi_id": "P0295",
+    "name": "中国邮政(华农邮政所)",
+    "category": "service",
+    "category_cn": "行政服务",
+    "aliases": [
+     "中国邮政(华农邮政所)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10484657515074811708"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3517291,
+     30.4779571
+    ]
+   },
+   "properties": {
+    "poi_id": "P0296",
+    "name": "华中农业大学博物馆",
+    "category": "service",
+    "category_cn": "行政服务",
+    "aliases": [
+     "华中农业大学博物馆",
+     "博物馆"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:6414042800035567554"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3589968,
+     30.4746972
+    ]
+   },
+   "properties": {
+    "poi_id": "P0297",
+    "name": "华中农业大学学生通讯社",
+    "category": "service",
+    "category_cn": "行政服务",
+    "aliases": [
+     "华中农业大学学生通讯社",
+     "学生通讯社"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1989899574525860825"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3563751,
+     30.4743754
+    ]
+   },
+   "properties": {
+    "poi_id": "P0298",
+    "name": "华中农业大学荟园开水房",
+    "category": "service",
+    "category_cn": "行政服务",
+    "aliases": [
+     "华中农业大学荟园开水房",
+     "荟园开水房"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:9061031977659276865"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.358179,
+     30.4724361
+    ]
+   },
+   "properties": {
+    "poi_id": "P0299",
+    "name": "荟十打印店",
+    "category": "service",
+    "category_cn": "行政服务",
+    "aliases": [
+     "荟十打印店"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5265973973914478168"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.345078,
+     30.4774739
+    ]
+   },
+   "properties": {
+    "poi_id": "P0300",
+    "name": "中百社区超市(3023华农店)",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "中百社区超市(3023华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:4644170292400285703"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3553821,
+     30.4788098
+    ]
+   },
+   "properties": {
+    "poi_id": "P0301",
+    "name": "中百罗森(华农店)",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "中百罗森(华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:133877428506808879"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.343786,
+     30.4772393
+    ]
+   },
+   "properties": {
+    "poi_id": "P0302",
+    "name": "中百罗森(华农梧桐路二店)",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "中百罗森(华农梧桐路二店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11157042569249035993"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3448613,
+     30.4770214
+    ]
+   },
+   "properties": {
+    "poi_id": "P0303",
+    "name": "中百罗森(华农梧桐路店)",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "中百罗森(华农梧桐路店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:10906327284884780182"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3408904,
+     30.4786972
+    ]
+   },
+   "properties": {
+    "poi_id": "P0304",
+    "name": "利民超市",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "利民超市"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2478858275748681260"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3583637,
+     30.4724358
+    ]
+   },
+   "properties": {
+    "poi_id": "P0305",
+    "name": "华农教育超市(华中农业大学荟园店)",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "华农教育超市(华中农业大学荟园店)",
+     "教育超市(华中农业大学荟园店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1531261051466191837"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3408364,
+     30.4673284
+    ]
+   },
+   "properties": {
+    "poi_id": "P0306",
+    "name": "咪咪副食(湖光山色店)",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "咪咪副食(湖光山色店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:13537704161639383702"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3443241,
+     30.4775482
+    ]
+   },
+   "properties": {
+    "poi_id": "P0307",
+    "name": "奇缘果品(华农店)",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "奇缘果品(华农店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16581030066364101040"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3445029,
+     30.4763912
+    ]
+   },
+   "properties": {
+    "poi_id": "P0308",
+    "name": "朝阳副食批发部(华中农业大学梧桐路步行街店)",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "朝阳副食批发部(华中农业大学梧桐路步行街店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15210058332640491665"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.35875,
+     30.4756913
+    ]
+   },
+   "properties": {
+    "poi_id": "P0309",
+    "name": "李氏大明眼镜工厂店",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "李氏大明眼镜工厂店"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7387825675620055571"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.345068,
+     30.4775189
+    ]
+   },
+   "properties": {
+    "poi_id": "P0310",
+    "name": "正大优鲜(华中农业大学店)",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "正大优鲜(华中农业大学店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8759582910007227415"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.344484,
+     30.4763143
+    ]
+   },
+   "properties": {
+    "poi_id": "P0311",
+    "name": "洪发副食(梧桐路步行街店)",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "洪发副食(梧桐路步行街店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11502029730195485356"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3449352,
+     30.4775441
+    ]
+   },
+   "properties": {
+    "poi_id": "P0312",
+    "name": "湖北教育超市(华农大梧桐店)",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "湖北教育超市(华农大梧桐店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7165505831823538327"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.358764,
+     30.4749735
+    ]
+   },
+   "properties": {
+    "poi_id": "P0313",
+    "name": "湖北教育超市(华农大荟五店)",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "湖北教育超市(华农大荟五店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:18018475348992456221"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3384312,
+     30.4789587
+    ]
+   },
+   "properties": {
+    "poi_id": "P0314",
+    "name": "湖北教育超市(西苑店)",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "湖北教育超市(西苑店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17622948140266554930"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3443251,
+     30.4776602
+    ]
+   },
+   "properties": {
+    "poi_id": "P0315",
+    "name": "满心水果",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "满心水果"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11717456409855074980"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3447135,
+     30.4781054
+    ]
+   },
+   "properties": {
+    "poi_id": "P0316",
+    "name": "花果园(华中农业大学步行街)",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "花果园(华中农业大学步行街)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1008338479842607489"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3408305,
+     30.4786953
+    ]
+   },
+   "properties": {
+    "poi_id": "P0317",
+    "name": "诚实哥鲜果",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "诚实哥鲜果"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:3041385403225046912"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.344484,
+     30.4763143
+    ]
+   },
+   "properties": {
+    "poi_id": "P0318",
+    "name": "辉煌副食(梧桐路步行街店)",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "辉煌副食(梧桐路步行街店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11105949356577573698"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3574846,
+     30.4749505
+    ]
+   },
+   "properties": {
+    "poi_id": "P0319",
+    "name": "鲜上便利店(华农荟园店)",
+    "category": "shop",
+    "category_cn": "超市便利店",
+    "aliases": [
+     "鲜上便利店(华农荟园店)"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:3327035323601588062"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3550898,
+     30.4751683
+    ]
+   },
+   "properties": {
+    "poi_id": "P0320",
+    "name": "华中农业大学-体育馆",
+    "category": "sports",
+    "category_cn": "体育健身",
+    "aliases": [
+     "-体育馆",
+     "华中农业大学-体育馆"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5270556875308647390"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3561842,
+     30.4766711
+    ]
+   },
+   "properties": {
+    "poi_id": "P0321",
+    "name": "华中农业大学东体育馆",
+    "category": "sports",
+    "category_cn": "体育健身",
+    "aliases": [
+     "东体育馆",
+     "华中农业大学东体育馆"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15395935014589894627"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.356267,
+     30.4770449
+    ]
+   },
+   "properties": {
+    "poi_id": "P0322",
+    "name": "华中农业大学东体育馆恒温游泳馆",
+    "category": "sports",
+    "category_cn": "体育健身",
+    "aliases": [
+     "东体育馆恒温游泳馆",
+     "华中农业大学东体育馆恒温游泳馆"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8094621392376712579"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3541039,
+     30.4773433
+    ]
+   },
+   "properties": {
+    "poi_id": "P0323",
+    "name": "华中农业大学第一运动场",
+    "category": "sports",
+    "category_cn": "体育健身",
+    "aliases": [
+     "华中农业大学第一运动场",
+     "第一运动场"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:12191058049965921123"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3598249,
+     30.4722156
+    ]
+   },
+   "properties": {
+    "poi_id": "P0324",
+    "name": "华中农业大学第三运动场",
+    "category": "sports",
+    "category_cn": "体育健身",
+    "aliases": [
+     "华中农业大学第三运动场",
+     "第三运动场"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5062075040455717726"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3574585,
+     30.4773629
+    ]
+   },
+   "properties": {
+    "poi_id": "P0325",
+    "name": "华中农业大学第二运动场足球场",
+    "category": "sports",
+    "category_cn": "体育健身",
+    "aliases": [
+     "华中农业大学第二运动场足球场",
+     "第二运动场足球场"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5832140642826148929"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3586819,
+     30.4775689
+    ]
+   },
+   "properties": {
+    "poi_id": "P0326",
+    "name": "华农二运篮球场",
+    "category": "sports",
+    "category_cn": "体育健身",
+    "aliases": [
+     "二运篮球场",
+     "华农二运篮球场"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:420848275187533953"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3534951,
+     30.4728285
+    ]
+   },
+   "properties": {
+    "poi_id": "P0327",
+    "name": "人文社科楼A座",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "人文社科楼A座"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17284723394193510586"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3531855,
+     30.4734039
+    ]
+   },
+   "properties": {
+    "poi_id": "P0328",
+    "name": "人文社科楼M座",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "人文社科楼M座"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:11133102929157803042"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3527132,
+     30.4733127
+    ]
+   },
+   "properties": {
+    "poi_id": "P0329",
+    "name": "华中农业大学人文社科楼",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "人文社科楼",
+     "华中农业大学人文社科楼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7345497035523181977"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3497649,
+     30.4791582
+    ]
+   },
+   "properties": {
+    "poi_id": "P0330",
+    "name": "华中农业大学大学生创业楼",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "华中农业大学大学生创业楼",
+     "大学生创业楼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:18249308090256808267"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3529595,
+     30.4768034
+    ]
+   },
+   "properties": {
+    "poi_id": "P0331",
+    "name": "华中农业大学第一教学楼",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "一教",
+     "华中农业大学第一教学楼",
+     "教一",
+     "第一教学楼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1081724565393116797"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3532004,
+     30.4742886
+    ]
+   },
+   "properties": {
+    "poi_id": "P0332",
+    "name": "华中农业大学第三教学楼",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "三教",
+     "华中农业大学第三教学楼",
+     "教三",
+     "第三教学楼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:14346497760585694837"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3533353,
+     30.4739145
+    ]
+   },
+   "properties": {
+    "poi_id": "P0333",
+    "name": "华中农业大学第三教学楼C座",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "三教",
+     "华中农业大学第三教学楼C座",
+     "教三",
+     "第三教学楼",
+     "第三教学楼C座"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15132993588139825844"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3530305,
+     30.4762644
+    ]
+   },
+   "properties": {
+    "poi_id": "P0334",
+    "name": "华中农业大学第二教学楼-西门",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "二教",
+     "华中农业大学第二教学楼-西门",
+     "教二",
+     "第二教学楼",
+     "第二教学楼-西门"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:18247708893992204790"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3554135,
+     30.4736122
+    ]
+   },
+   "properties": {
+    "poi_id": "P0335",
+    "name": "华中农业大学第四教学楼A区-东门",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "华中农业大学第四教学楼A区-东门",
+     "四教",
+     "教四",
+     "第四教学楼",
+     "第四教学楼A区-东门"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:8120776883716768310"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3545137,
+     30.4732428
+    ]
+   },
+   "properties": {
+    "poi_id": "P0336",
+    "name": "华中农业大学第四教学楼B区-西门",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "华中农业大学第四教学楼B区-西门",
+     "四教",
+     "教四",
+     "第四教学楼",
+     "第四教学楼B区-西门"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:4666510609263900753"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3554075,
+     30.4732623
+    ]
+   },
+   "properties": {
+    "poi_id": "P0337",
+    "name": "华中农业大学第四教学楼B座",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "华中农业大学第四教学楼B座",
+     "四教",
+     "教四",
+     "第四教学楼",
+     "第四教学楼B座"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:14629730149280657559"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3554295,
+     30.4730753
+    ]
+   },
+   "properties": {
+    "poi_id": "P0338",
+    "name": "华中农业大学第四教学楼C区",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "华中农业大学第四教学楼C区",
+     "四教",
+     "教四",
+     "第四教学楼",
+     "第四教学楼C区"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:15295062617816287417"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3554614,
+     30.4731272
+    ]
+   },
+   "properties": {
+    "poi_id": "P0339",
+    "name": "华中农业大学第四教学楼C区-东门",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "华中农业大学第四教学楼C区-东门",
+     "四教",
+     "教四",
+     "第四教学楼",
+     "第四教学楼C区-东门"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:7548957018118333480"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3468735,
+     30.4742866
+    ]
+   },
+   "properties": {
+    "poi_id": "P0340",
+    "name": "华中农业大学第四综合楼",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "华中农业大学第四综合楼",
+     "第四综合楼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:16957811874491016831"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3531692,
+     30.4777797
+    ]
+   },
+   "properties": {
+    "poi_id": "P0341",
+    "name": "华中农业大学逸夫教学楼B座",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "华中农业大学逸夫教学楼B座",
+     "逸夫教学楼B座"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:1339540180254429176"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3530084,
+     30.4774611
+    ]
+   },
+   "properties": {
+    "poi_id": "P0342",
+    "name": "华中农业大学逸夫教学楼C座",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "华中农业大学逸夫教学楼C座",
+     "逸夫教学楼C座"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:4994692723684125251"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3460808,
+     30.4730183
+    ]
+   },
+   "properties": {
+    "poi_id": "P0343",
+    "name": "华农新人文社科楼",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "华农新人文社科楼",
+     "新人文社科楼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:18302292720073778976"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3540299,
+     30.478886
+    ]
+   },
+   "properties": {
+    "poi_id": "P0344",
+    "name": "华农景园楼",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "华农景园楼",
+     "景园楼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:5610219742164680735"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3533352,
+     30.4745873
+    ]
+   },
+   "properties": {
+    "poi_id": "P0345",
+    "name": "华农第三教学楼A栋",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "三教",
+     "华农第三教学楼A栋",
+     "教三",
+     "第三教学楼",
+     "第三教学楼A栋"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:192418218783154853"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3474926,
+     30.4740745
+    ]
+   },
+   "properties": {
+    "poi_id": "P0346",
+    "name": "华农第三综合楼",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "华农第三综合楼",
+     "第三综合楼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:2913683154450733876"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3531174,
+     30.4763122
+    ]
+   },
+   "properties": {
+    "poi_id": "P0347",
+    "name": "华农第二教学楼",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "二教",
+     "华农第二教学楼",
+     "教二",
+     "第二教学楼"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:13304949612539998729"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3553606,
+     30.4732964
+    ]
+   },
+   "properties": {
+    "poi_id": "P0348",
+    "name": "华农第四教学楼-B区",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "华农第四教学楼-B区",
+     "四教",
+     "教四",
+     "第四教学楼",
+     "第四教学楼-B区"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17500449497602411659"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.347165,
+     30.4755437
+    ]
+   },
+   "properties": {
+    "poi_id": "P0349",
+    "name": "华农第四综合楼F座",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "华农第四综合楼F座",
+     "第四综合楼F座"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:6900150891855199356"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3531611,
+     30.4781407
+    ]
+   },
+   "properties": {
+    "poi_id": "P0350",
+    "name": "华农逸夫教学楼A座",
+    "category": "teaching",
+    "category_cn": "教学楼",
+    "aliases": [
+     "华农逸夫教学楼A座",
+     "逸夫教学楼A座"
+    ],
+    "merged_count": 1,
+    "osm_ref": "tmap:17830759063301777081"
+   }
+  }
+ ]
+}
